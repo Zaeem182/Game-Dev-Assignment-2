@@ -35,6 +35,8 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn = new System.Windows.Forms.Button();
             this.NounLvl1instructionLbl = new System.Windows.Forms.Label();
             this.PLvl1Lbl = new System.Windows.Forms.Label();
+            this.PQ1Study1 = new System.Windows.Forms.Label();
+            this.PronounLvl1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NextBtn
@@ -94,11 +96,33 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl1Lbl.TabIndex = 12;
             this.PLvl1Lbl.Text = "Pronouns Level 1";
             // 
+            // PQ1Study1
+            // 
+            this.PQ1Study1.AutoSize = true;
+            this.PQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.PQ1Study1.Location = new System.Drawing.Point(29, 198);
+            this.PQ1Study1.Name = "PQ1Study1";
+            this.PQ1Study1.Size = new System.Drawing.Size(170, 30);
+            this.PQ1Study1.TabIndex = 18;
+            this.PQ1Study1.Text = "Watashi \"私\" = I";
+            // 
+            // PronounLvl1
+            // 
+            this.PronounLvl1.AutoSize = true;
+            this.PronounLvl1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PronounLvl1.Location = new System.Drawing.Point(29, 145);
+            this.PronounLvl1.Name = "PronounLvl1";
+            this.PronounLvl1.Size = new System.Drawing.Size(199, 30);
+            this.PronounLvl1.TabIndex = 19;
+            this.PronounLvl1.Text = "Japanese = English";
+            // 
             // PronounsLvl1Learn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(878, 508);
+            this.Controls.Add(this.PronounLvl1);
+            this.Controls.Add(this.PQ1Study1);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.MuteBtn);
@@ -120,5 +144,7 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button BackBtn;
         private System.Windows.Forms.Label NounLvl1instructionLbl;
         private System.Windows.Forms.Label PLvl1Lbl;
+        private System.Windows.Forms.Label PQ1Study1;
+        private System.Windows.Forms.Label PronounLvl1;
     }
 }

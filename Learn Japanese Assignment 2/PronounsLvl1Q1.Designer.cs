@@ -30,14 +30,15 @@ namespace Learn_Japanese_Assignment_2
         private void InitializeComponent()
         {
             this.PLvl1Q1Lbl = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.PQ1Option4 = new System.Windows.Forms.Button();
+            this.PQ1Option3 = new System.Windows.Forms.Button();
+            this.PQ1Option2 = new System.Windows.Forms.Button();
+            this.PQ1Option1 = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.MuteBtn = new System.Windows.Forms.Button();
             this.NextBtn = new System.Windows.Forms.Button();
             this.BackBtn = new System.Windows.Forms.Button();
+            this.PQ1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // PLvl1Q1Lbl
@@ -50,41 +51,41 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl1Q1Lbl.TabIndex = 22;
             this.PLvl1Q1Lbl.Text = "Pronouns Level 1";
             // 
-            // button8
+            // PQ1Option4
             // 
-            this.button8.Location = new System.Drawing.Point(445, 382);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(178, 90);
-            this.button8.TabIndex = 21;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.PQ1Option4.Location = new System.Drawing.Point(445, 382);
+            this.PQ1Option4.Name = "PQ1Option4";
+            this.PQ1Option4.Size = new System.Drawing.Size(178, 90);
+            this.PQ1Option4.TabIndex = 21;
+            this.PQ1Option4.Text = "Them";
+            this.PQ1Option4.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // PQ1Option3
             // 
-            this.button7.Location = new System.Drawing.Point(237, 382);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(178, 90);
-            this.button7.TabIndex = 20;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.PQ1Option3.Location = new System.Drawing.Point(237, 382);
+            this.PQ1Option3.Name = "PQ1Option3";
+            this.PQ1Option3.Size = new System.Drawing.Size(178, 90);
+            this.PQ1Option3.TabIndex = 20;
+            this.PQ1Option3.Text = "I";
+            this.PQ1Option3.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // PQ1Option2
             // 
-            this.button6.Location = new System.Drawing.Point(445, 275);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(178, 90);
-            this.button6.TabIndex = 19;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.PQ1Option2.Location = new System.Drawing.Point(445, 275);
+            this.PQ1Option2.Name = "PQ1Option2";
+            this.PQ1Option2.Size = new System.Drawing.Size(178, 90);
+            this.PQ1Option2.TabIndex = 19;
+            this.PQ1Option2.Text = "He";
+            this.PQ1Option2.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // PQ1Option1
             // 
-            this.button5.Location = new System.Drawing.Point(237, 275);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(178, 90);
-            this.button5.TabIndex = 18;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.PQ1Option1.Location = new System.Drawing.Point(237, 275);
+            this.PQ1Option1.Name = "PQ1Option1";
+            this.PQ1Option1.Size = new System.Drawing.Size(178, 90);
+            this.PQ1Option1.TabIndex = 18;
+            this.PQ1Option1.Text = "Yes";
+            this.PQ1Option1.UseVisualStyleBackColor = true;
             // 
             // ExitBtn
             // 
@@ -123,16 +124,27 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn.Text = "<Back";
             this.BackBtn.UseVisualStyleBackColor = true;
             // 
+            // PQ1
+            // 
+            this.PQ1.AutoSize = true;
+            this.PQ1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PQ1.Location = new System.Drawing.Point(357, 146);
+            this.PQ1.Name = "PQ1";
+            this.PQ1.Size = new System.Drawing.Size(160, 32);
+            this.PQ1.TabIndex = 23;
+            this.PQ1.Text = "Watashi \"私\"";
+            // 
             // PronounsLvl1Q1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 556);
+            this.Controls.Add(this.PQ1);
             this.Controls.Add(this.PLvl1Q1Lbl);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.PQ1Option4);
+            this.Controls.Add(this.PQ1Option3);
+            this.Controls.Add(this.PQ1Option2);
+            this.Controls.Add(this.PQ1Option1);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
@@ -147,13 +159,14 @@ namespace Learn_Japanese_Assignment_2
         #endregion
 
         private System.Windows.Forms.Label PLvl1Q1Lbl;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button PQ1Option4;
+        private System.Windows.Forms.Button PQ1Option3;
+        private System.Windows.Forms.Button PQ1Option2;
+        private System.Windows.Forms.Button PQ1Option1;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.Button BackBtn;
+        private System.Windows.Forms.Label PQ1;
     }
 }
