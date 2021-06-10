@@ -60,7 +60,6 @@ namespace Learn_Japanese_Assignment_2
             this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnMute
             // 
@@ -89,7 +88,6 @@ namespace Learn_Japanese_Assignment_2
             this.btnAnimal.TabIndex = 4;
             this.btnAnimal.Text = "Animal";
             this.btnAnimal.UseVisualStyleBackColor = true;
-            this.btnAnimal.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnPeople
             // 

@@ -52,7 +52,7 @@ namespace Learn_Japanese_Assignment_2
             this.btn1.TabIndex = 1;
             this.btn1.Text = "Press to continue";
             this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.btn1_Click_1);
             // 
             // WelcomeScreen
             // 
