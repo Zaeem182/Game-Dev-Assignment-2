@@ -43,6 +43,7 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn = new System.Windows.Forms.Button();
             this.CategoryHeadingLbl = new System.Windows.Forms.Label();
             this.CategorySubHeadingLbl = new System.Windows.Forms.Label();
+            this.NextBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NounCategoryBtn
@@ -65,6 +66,7 @@ namespace Learn_Japanese_Assignment_2
             this.VerbCategoryBtn.TabIndex = 1;
             this.VerbCategoryBtn.Text = "Verbs";
             this.VerbCategoryBtn.UseVisualStyleBackColor = true;
+            this.VerbCategoryBtn.Click += new System.EventHandler(this.VerbCategoryBtn_Click);
             // 
             // PronounCategoryBtn
             // 
@@ -75,7 +77,7 @@ namespace Learn_Japanese_Assignment_2
             this.PronounCategoryBtn.TabIndex = 2;
             this.PronounCategoryBtn.Text = "Pronouns";
             this.PronounCategoryBtn.UseVisualStyleBackColor = true;
-            this.PronounCategoryBtn.Click += new System.EventHandler(this.button3_Click);
+            this.PronounCategoryBtn.Click += new System.EventHandler(this.PronounCategoryBtn_Click);
             // 
             // NLvl1Btn
             // 
@@ -154,6 +156,7 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.TabIndex = 9;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
@@ -177,7 +180,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.CategoryHeadingLbl.AutoSize = true;
             this.CategoryHeadingLbl.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.CategoryHeadingLbl.Location = new System.Drawing.Point(507, 23);
+            this.CategoryHeadingLbl.Location = new System.Drawing.Point(384, 20);
             this.CategoryHeadingLbl.Name = "CategoryHeadingLbl";
             this.CategoryHeadingLbl.Size = new System.Drawing.Size(195, 47);
             this.CategoryHeadingLbl.TabIndex = 12;
@@ -193,11 +196,21 @@ namespace Learn_Japanese_Assignment_2
             this.CategorySubHeadingLbl.TabIndex = 13;
             this.CategorySubHeadingLbl.Text = "Select one of the categories below:";
             // 
+            // NextBtn
+            // 
+            this.NextBtn.Location = new System.Drawing.Point(730, 572);
+            this.NextBtn.Name = "NextBtn";
+            this.NextBtn.Size = new System.Drawing.Size(64, 39);
+            this.NextBtn.TabIndex = 14;
+            this.NextBtn.Text = "Next>";
+            this.NextBtn.UseVisualStyleBackColor = true;
+            // 
             // Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1143, 635);
+            this.ClientSize = new System.Drawing.Size(998, 635);
+            this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CategorySubHeadingLbl);
             this.Controls.Add(this.CategoryHeadingLbl);
             this.Controls.Add(this.BackBtn);
@@ -214,7 +227,6 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.NounCategoryBtn);
             this.Name = "Category";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Category_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,10 +245,10 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button PLvl2Btn;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Button MuteBtn;
-        private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Label CategoryHeadingLbl;
         private System.Windows.Forms.Label CategorySubHeadingLbl;
         private System.Windows.Forms.Button BackBtn;
+        private System.Windows.Forms.Button NextBtn;
     }
 }
 
