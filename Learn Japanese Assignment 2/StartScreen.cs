@@ -15,5 +15,12 @@ namespace Learn_Japanese_Assignment_2
             Tutorial tut = new Tutorial();
             tut.Show();
         }
+
+        private void btn2_Click(object sender, System.EventArgs e)
+        {
+            this.Hide();
+            Category start = new Category();
+            start.Show();
+        }
     }
 }

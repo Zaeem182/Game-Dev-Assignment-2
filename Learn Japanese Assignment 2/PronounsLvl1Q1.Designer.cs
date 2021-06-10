@@ -68,6 +68,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option3.TabIndex = 20;
             this.PQ1Option3.Text = "I";
             this.PQ1Option3.UseVisualStyleBackColor = true;
+            this.PQ1Option3.Click += new System.EventHandler(this.PQ1Option3_Click);
             // 
             // PQ1Option2
             // 
@@ -123,6 +124,7 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn.TabIndex = 14;
             this.BackBtn.Text = "<Back";
             this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // PQ1
             // 

@@ -63,6 +63,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.pictureBox1);
             this.Name = "WelcomeScreen";
             this.Text = "WelcomeScreen";
+            this.Load += new System.EventHandler(this.WelcomeScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

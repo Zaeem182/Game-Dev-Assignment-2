@@ -43,7 +43,6 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn = new System.Windows.Forms.Button();
             this.CategoryHeadingLbl = new System.Windows.Forms.Label();
             this.CategorySubHeadingLbl = new System.Windows.Forms.Label();
-            this.NextBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NounCategoryBtn
@@ -111,6 +110,7 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl1Btn.Text = "Level 1";
             this.PLvl1Btn.UseVisualStyleBackColor = true;
             this.PLvl1Btn.Visible = false;
+            this.PLvl1Btn.Click += new System.EventHandler(this.PLvl1Btn_Click);
             // 
             // NLvl2Btn
             // 
@@ -175,6 +175,7 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn.TabIndex = 11;
             this.BackBtn.Text = "<Back";
             this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // CategoryHeadingLbl
             // 
@@ -196,21 +197,11 @@ namespace Learn_Japanese_Assignment_2
             this.CategorySubHeadingLbl.TabIndex = 13;
             this.CategorySubHeadingLbl.Text = "Select one of the categories below:";
             // 
-            // NextBtn
-            // 
-            this.NextBtn.Location = new System.Drawing.Point(730, 572);
-            this.NextBtn.Name = "NextBtn";
-            this.NextBtn.Size = new System.Drawing.Size(64, 39);
-            this.NextBtn.TabIndex = 14;
-            this.NextBtn.Text = "Next>";
-            this.NextBtn.UseVisualStyleBackColor = true;
-            // 
             // Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(998, 635);
-            this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CategorySubHeadingLbl);
             this.Controls.Add(this.CategoryHeadingLbl);
             this.Controls.Add(this.BackBtn);
@@ -248,7 +239,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label CategoryHeadingLbl;
         private System.Windows.Forms.Label CategorySubHeadingLbl;
         private System.Windows.Forms.Button BackBtn;
-        private System.Windows.Forms.Button NextBtn;
     }
 }
 

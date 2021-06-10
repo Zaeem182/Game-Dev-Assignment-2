@@ -41,5 +41,10 @@ namespace Learn_Japanese_Assignment_2
             StartScreen start = new StartScreen();
             start.Show();
         }
+
+        private void WelcomeScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

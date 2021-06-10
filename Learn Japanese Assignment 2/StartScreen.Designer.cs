@@ -51,6 +51,7 @@ namespace Learn_Japanese_Assignment_2
             this.btn2.TabIndex = 1;
             this.btn2.Text = "Start Learning";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // StartScreen
             // 

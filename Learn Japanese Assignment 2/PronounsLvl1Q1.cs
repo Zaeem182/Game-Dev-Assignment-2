@@ -19,5 +19,17 @@ namespace Learn_Japanese_Assignment_2
         {
             Application.Exit();
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PronounsLvl1Learn start = new PronounsLvl1Learn();
+            start.Show();
+        }
+
+        private void PQ1Option3_Click(object sender, EventArgs e)
+        {
+            PQ1Option3.BackColor = Color.Green;
+        }
     }
 }
