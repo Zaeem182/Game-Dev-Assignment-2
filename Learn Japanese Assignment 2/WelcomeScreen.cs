@@ -33,8 +33,8 @@ namespace Learn_Japanese_Assignment_2
         private void btn1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Tutorial tut = new Tutorial();
-            tut.Show();
+            StartScreen start = new StartScreen();
+            start.Show();
 
         }
     }
