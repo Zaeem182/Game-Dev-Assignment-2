@@ -15,7 +15,7 @@ namespace Learn_Japanese_Assignment_2
     {
         public WelcomeScreen()
         {
-            Thread t = new Thread(new ThreadStart(splash));
+            Thread t = new Thread(new ThreadStart(Splash));
             t.Start();
 
             Thread.Sleep(50000);
@@ -25,12 +25,12 @@ namespace Learn_Japanese_Assignment_2
 
             t.Abort();
         }
-        public void splash()
+        public void Splash()
         {
             Application.Run(new SplashScreen());
         }
 
-        private void btn1_Click(object sender, EventArgs e)
+        private void Btn1_Click(object sender, EventArgs e)
         {
             this.Hide();
             StartScreen start = new StartScreen();
