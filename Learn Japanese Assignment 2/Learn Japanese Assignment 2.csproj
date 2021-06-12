@@ -6,11 +6,11 @@
     <RootNamespace>Learn_Japanese_Assignment_2</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
+<!--
   <ItemGroup>
     <PackageReference Include="SplashScreen.Winforms" Version="1.0.0" />
   </ItemGroup>
-
+-->
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>

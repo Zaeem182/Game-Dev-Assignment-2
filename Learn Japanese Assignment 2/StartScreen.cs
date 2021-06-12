@@ -22,5 +22,10 @@ namespace Learn_Japanese_Assignment_2
             Category start = new Category();
             start.Show();
         }
+
+        private void StartScreen_Load(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

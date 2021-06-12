@@ -62,6 +62,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.btb1);
             this.Name = "StartScreen";
             this.Text = "Tutorial";
+            this.Load += new System.EventHandler(this.StartScreen_Load);
             this.ResumeLayout(false);
 
         }
