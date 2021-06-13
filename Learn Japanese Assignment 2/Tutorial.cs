@@ -29,12 +29,13 @@ namespace Learn_Japanese_Assignment_2
 
         private void btnAnimal_Click(object sender, EventArgs e)
         {
-
-
+            btnAnimal.BackColor = Color.Red;
         }
 
         private void btnPerson_Click(object sender, EventArgs e)
         {
+            btnPerson.BackColor = Color.Red;
+
 
         }
 
@@ -45,6 +46,7 @@ namespace Learn_Japanese_Assignment_2
 
         private void btnEarth_Click(object sender, EventArgs e)
         {
+            btnEarth.BackColor = Color.Red;
 
         }
     }

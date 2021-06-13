@@ -44,7 +44,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(28, 387);
+            this.btnBack.Location = new System.Drawing.Point(379, 515);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(123, 387);
+            this.btnNext.Location = new System.Drawing.Point(506, 515);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
             this.btnNext.TabIndex = 1;
@@ -63,7 +63,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnMute
             // 
-            this.btnMute.Location = new System.Drawing.Point(344, 387);
+            this.btnMute.Location = new System.Drawing.Point(879, 526);
             this.btnMute.Name = "btnMute";
             this.btnMute.Size = new System.Drawing.Size(75, 23);
             this.btnMute.TabIndex = 2;
@@ -72,7 +72,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnPerson
             // 
-            this.btnPerson.Location = new System.Drawing.Point(38, 258);
+            this.btnPerson.Location = new System.Drawing.Point(220, 441);
             this.btnPerson.Name = "btnPerson";
             this.btnPerson.Size = new System.Drawing.Size(160, 47);
             this.btnPerson.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnAnimal
             // 
-            this.btnAnimal.Location = new System.Drawing.Point(259, 258);
+            this.btnAnimal.Location = new System.Drawing.Point(569, 332);
             this.btnAnimal.Name = "btnAnimal";
             this.btnAnimal.Size = new System.Drawing.Size(160, 47);
             this.btnAnimal.TabIndex = 4;
@@ -91,7 +91,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnPeople
             // 
-            this.btnPeople.Location = new System.Drawing.Point(38, 311);
+            this.btnPeople.Location = new System.Drawing.Point(220, 334);
             this.btnPeople.Name = "btnPeople";
             this.btnPeople.Size = new System.Drawing.Size(160, 45);
             this.btnPeople.TabIndex = 5;
@@ -101,7 +101,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnEarth
             // 
-            this.btnEarth.Location = new System.Drawing.Point(259, 311);
+            this.btnEarth.Location = new System.Drawing.Point(569, 441);
             this.btnEarth.Name = "btnEarth";
             this.btnEarth.Size = new System.Drawing.Size(160, 45);
             this.btnEarth.TabIndex = 6;
@@ -112,7 +112,7 @@ namespace Learn_Japanese_Assignment_2
             // lbl1
             // 
             this.lbl1.AutoSize = true;
-            this.lbl1.Location = new System.Drawing.Point(205, 9);
+            this.lbl1.Location = new System.Drawing.Point(440, 9);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(42, 15);
             this.lbl1.TabIndex = 7;
@@ -121,9 +121,9 @@ namespace Learn_Japanese_Assignment_2
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(38, 39);
+            this.pictureBox1.Location = new System.Drawing.Point(220, 47);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(381, 203);
+            this.pictureBox1.Size = new System.Drawing.Size(509, 262);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
@@ -131,7 +131,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 424);
+            this.ClientSize = new System.Drawing.Size(966, 561);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnEarth);

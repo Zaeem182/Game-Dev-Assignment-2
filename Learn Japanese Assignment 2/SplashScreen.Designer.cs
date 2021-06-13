@@ -40,17 +40,17 @@ namespace Learn_Japanese_Assignment_2
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(48, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(402, 216);
+            this.pictureBox1.Size = new System.Drawing.Size(858, 436);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 258);
+            this.progressBar1.Location = new System.Drawing.Point(48, 497);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(402, 23);
+            this.progressBar1.Size = new System.Drawing.Size(858, 23);
             this.progressBar1.TabIndex = 1;
             // 
             // timer1
@@ -62,7 +62,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 320);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "SplashScreen";

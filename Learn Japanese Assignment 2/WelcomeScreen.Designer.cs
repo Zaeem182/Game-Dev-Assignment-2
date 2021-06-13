@@ -40,13 +40,13 @@ namespace Learn_Japanese_Assignment_2
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(398, 209);
+            this.pictureBox1.Size = new System.Drawing.Size(960, 495);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(109, 237);
+            this.btn1.Location = new System.Drawing.Point(416, 484);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(186, 23);
             this.btn1.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 301);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "WelcomeScreen";
