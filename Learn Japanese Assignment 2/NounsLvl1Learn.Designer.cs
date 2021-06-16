@@ -65,6 +65,7 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn.TabIndex = 2;
             this.BackBtn.Text = "<Back";
             this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // MuteBtn
             // 
@@ -93,6 +94,7 @@ namespace Learn_Japanese_Assignment_2
             this.NextBtn.TabIndex = 5;
             this.NextBtn.Text = "Next>";
             this.NextBtn.UseVisualStyleBackColor = true;
+            this.NextBtn.Click += new System.EventHandler(this.NextBtn_Click);
             // 
             // NounsLvl1Learn
             // 

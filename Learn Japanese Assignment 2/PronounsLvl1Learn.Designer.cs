@@ -106,7 +106,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Study1.Name = "PQ1Study1";
             this.PQ1Study1.Size = new System.Drawing.Size(170, 30);
             this.PQ1Study1.TabIndex = 18;
-            this.PQ1Study1.Text = "Watashi \"私\" = I";
+            this.PQ1Study1.Text = "I = Watashi \"私\"";
             // 
             // PronounLvl1
             // 
@@ -116,7 +116,7 @@ namespace Learn_Japanese_Assignment_2
             this.PronounLvl1.Name = "PronounLvl1";
             this.PronounLvl1.Size = new System.Drawing.Size(199, 30);
             this.PronounLvl1.TabIndex = 19;
-            this.PronounLvl1.Text = "Japanese = English";
+            this.PronounLvl1.Text = "English = Japanese";
             // 
             // PronounsLvl1Learn
             // 
@@ -133,6 +133,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.PLvl1Lbl);
             this.Name = "PronounsLvl1Learn";
             this.Text = "PronounsLvl1Learn";
+            this.Load += new System.EventHandler(this.PronounsLvl1Learn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

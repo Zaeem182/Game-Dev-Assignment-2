@@ -20,16 +20,23 @@ namespace Learn_Japanese_Assignment_2
             Application.Exit();
         }
 
-        private void BackBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PronounsLvl1Learn start = new PronounsLvl1Learn();
-            start.Show();
-        }
-
         private void PQ1Option3_Click(object sender, EventArgs e)
         {
             PQ1Option3.BackColor = Color.Green;
+        }
+
+        private void NextBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PronounsLvl1Q2 start = new PronounsLvl1Q2();
+            start.Show();
+        }
+
+        private void CancelBtn_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Category start = new Category();
+            start.Show();
         }
     }
 }

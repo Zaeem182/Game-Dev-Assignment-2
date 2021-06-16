@@ -88,6 +88,7 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl1Btn.Text = "Level 1";
             this.NLvl1Btn.UseVisualStyleBackColor = true;
             this.NLvl1Btn.Visible = false;
+            this.NLvl1Btn.Click += new System.EventHandler(this.NLvl1Btn_Click);
             // 
             // VLvl1Btn
             // 
@@ -99,6 +100,7 @@ namespace Learn_Japanese_Assignment_2
             this.VLvl1Btn.Text = "Level 1";
             this.VLvl1Btn.UseVisualStyleBackColor = true;
             this.VLvl1Btn.Visible = false;
+            this.VLvl1Btn.Click += new System.EventHandler(this.VLvl1Btn_Click);
             // 
             // PLvl1Btn
             // 

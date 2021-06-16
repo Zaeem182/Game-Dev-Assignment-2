@@ -49,5 +49,10 @@ namespace Learn_Japanese_Assignment_2
             btnEarth.BackColor = Color.Red;
 
         }
+
+        private void Tutorial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

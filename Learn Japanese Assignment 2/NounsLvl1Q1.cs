@@ -19,5 +19,19 @@ namespace Learn_Japanese_Assignment_2
         {
             Application.Exit();
         }
+
+        private void CancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Category start = new Category();
+            start.Show();
+        }
+
+        private void NextBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            NounsLvl1Q2 start = new NounsLvl1Q2();
+            start.Show();
+        }
     }
 }

@@ -8,11 +8,18 @@ using System.Windows.Forms;
 
 namespace Learn_Japanese_Assignment_2
 {
-    public partial class PronounsLvl1Learn : Form
+    public partial class VerbsLvl1Q3 : Form
     {
-        public PronounsLvl1Learn()
+        public VerbsLvl1Q3()
         {
             InitializeComponent();
+        }
+
+        private void CancelBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Category start = new Category();
+            start.Show();
         }
 
         private void ExitBtn_Click(object sender, EventArgs e)
@@ -20,21 +27,14 @@ namespace Learn_Japanese_Assignment_2
             Application.Exit();
         }
 
-        private void BackBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Category start = new Category();
-            start.Show();
-        }
-
         private void NextBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            PronounsLvl1Q1 start = new PronounsLvl1Q1();
+            VerbsLvl1Q4 start = new VerbsLvl1Q4();
             start.Show();
         }
 
-        private void PronounsLvl1Learn_Load(object sender, EventArgs e)
+        private void VerbsLvl1Q3_Load(object sender, EventArgs e)
         {
 
         }

@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Learn_Japanese_Assignment_2
 {
-    public partial class VerbsLvl1Learn : Form
+    public partial class PronounsLvl1Q2 : Form
     {
-        public VerbsLvl1Learn()
+        public PronounsLvl1Q2()
         {
             InitializeComponent();
         }
@@ -20,9 +20,9 @@ namespace Learn_Japanese_Assignment_2
             Application.Exit();
         }
 
-        private void BackBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click_1(object sender, EventArgs e)
         {
-             this.Hide();
+            this.Hide();
             Category start = new Category();
             start.Show();
         }
@@ -30,7 +30,7 @@ namespace Learn_Japanese_Assignment_2
         private void NextBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            VerbsLvl1Q1 start = new VerbsLvl1Q1();
+            PronounsLvl1Q3 start = new PronounsLvl1Q3();
             start.Show();
         }
     }

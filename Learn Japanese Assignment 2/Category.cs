@@ -84,5 +84,19 @@ namespace Learn_Japanese_Assignment_2
             PronounsLvl1Learn start = new PronounsLvl1Learn();
             start.Show();
         }
+
+        private void NLvl1Btn_Click(object sender, EventArgs e)
+        {
+                this.Hide();
+                NounsLvl1Learn start = new NounsLvl1Learn();
+                start.Show();
+        }
+
+        private void VLvl1Btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VerbsLvl1Learn start = new VerbsLvl1Learn();
+            start.Show();
+        }
     }
 }

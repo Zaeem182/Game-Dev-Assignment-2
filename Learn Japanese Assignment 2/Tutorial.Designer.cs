@@ -143,6 +143,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.btnBack);
             this.Name = "Tutorial";
             this.Text = "Tutorial";
+            this.Load += new System.EventHandler(this.Tutorial_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
