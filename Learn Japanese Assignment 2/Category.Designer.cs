@@ -122,7 +122,7 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl2Btn.TabIndex = 6;
             this.NLvl2Btn.Text = "Level 2";
             this.NLvl2Btn.UseVisualStyleBackColor = true;
-            this.NLvl2Btn.Visible = false;
+            this.NLvl2Btn.Click += new System.EventHandler(this.NLvl2Btn_Click);
             // 
             // VLvl2Btn
             // 
@@ -134,7 +134,7 @@ namespace Learn_Japanese_Assignment_2
             this.VLvl2Btn.TabIndex = 7;
             this.VLvl2Btn.Text = "Level 2";
             this.VLvl2Btn.UseVisualStyleBackColor = true;
-            this.VLvl2Btn.Visible = false;
+            this.VLvl2Btn.Click += new System.EventHandler(this.VLvl2Btn_Click);
             // 
             // PLvl2Btn
             // 
@@ -146,7 +146,7 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl2Btn.TabIndex = 8;
             this.PLvl2Btn.Text = "Level 2";
             this.PLvl2Btn.UseVisualStyleBackColor = true;
-            this.PLvl2Btn.Visible = false;
+            this.PLvl2Btn.Click += new System.EventHandler(this.PLvl2Btn_Click);
             // 
             // ExitBtn
             // 
