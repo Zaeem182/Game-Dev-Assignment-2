@@ -97,6 +97,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option1.TabIndex = 128;
             this.VQ1Option1.Text = "Sensei \"先生\"";
             this.VQ1Option1.UseVisualStyleBackColor = true;
+            this.VQ1Option1.Click += new System.EventHandler(this.VQ1Option1_Click);
             // 
             // ExitBtn
             // 

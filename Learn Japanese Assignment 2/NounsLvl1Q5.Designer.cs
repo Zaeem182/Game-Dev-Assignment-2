@@ -88,6 +88,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option2.TabIndex = 149;
             this.VQ1Option2.Text = "Gakkou \"学校\"";
             this.VQ1Option2.UseVisualStyleBackColor = true;
+            this.VQ1Option2.Click += new System.EventHandler(this.VQ1Option2_Click);
             // 
             // VQ1Option1
             // 
@@ -152,7 +153,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
+            this.MaximizeBox = false;
             this.Name = "NounsLvl1Q5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NounsLvl1Q5";
             this.ResumeLayout(false);
             this.PerformLayout();

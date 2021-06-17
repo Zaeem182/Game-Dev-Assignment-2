@@ -88,6 +88,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option2.TabIndex = 109;
             this.VQ1Option2.Text = "Namae  \"名前\"";
             this.VQ1Option2.UseVisualStyleBackColor = true;
+            this.VQ1Option2.Click += new System.EventHandler(this.VQ1Option2_Click);
             // 
             // VQ1Option1
             // 
