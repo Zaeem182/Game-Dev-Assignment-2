@@ -8,46 +8,18 @@ using System.Windows.Forms;
 
 namespace Learn_Japanese_Assignment_2
 {
-    public partial class PronounsLvl1Q1 : Form
+    public partial class PronounsLvl1Q4 : Form
     {
-
-        public static PronounsLvl1Q1 instance;
-        
+        public static PronounsLvl1Q4 instance;
         public bool correct = false;
 
-        public PronounsLvl1Q1()
+        public PronounsLvl1Q4()
         {
             InitializeComponent();
             instance = this;
-            
         }
 
-        private void ExitBtn_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void PQ1Option3_Click(object sender, EventArgs e)
-        {
-            correct = true;
-
-            PQ1Option3.BackColor = Color.Green;
-
-            PQ1Option1.Enabled = false;
-            PQ1Option2.Enabled = false;
-            PQ1Option3.Enabled = false;
-            PQ1Option4.Enabled = false;
-
-        }
-
-        private void NextBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PronounsLvl1Q2 start = new PronounsLvl1Q2();
-            start.Show();
-        }
-
-        private void CancelBtn_Click_1(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
             string message = "Are you sure you want to cancel?";
             string title = "Cancel?";
@@ -63,7 +35,30 @@ namespace Learn_Japanese_Assignment_2
             {
                 // Closes the MessegeBox and allows user to continue with the quiz. 
             }
-            
+        }
+
+        private void NextBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PronounsLvl1Q5 start = new PronounsLvl1Q5();
+            start.Show();
+        }
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void PQ1Option4_Click(object sender, EventArgs e)
+        {
+            correct = true;
+
+            PQ1Option4.BackColor = Color.Green;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
         }
     }
 }

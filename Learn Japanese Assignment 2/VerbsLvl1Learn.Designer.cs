@@ -45,6 +45,7 @@ namespace Learn_Japanese_Assignment_2
             this.NextBtn.TabIndex = 11;
             this.NextBtn.Text = "Next>";
             this.NextBtn.UseVisualStyleBackColor = true;
+            this.NextBtn.Click += new System.EventHandler(this.NextBtn_Click);
             // 
             // ExitBtn
             // 
@@ -73,6 +74,7 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn.TabIndex = 8;
             this.BackBtn.Text = "<Back";
             this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // NounLvl1instructionLbl
             // 
@@ -106,6 +108,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.NounLvl1instructionLbl);
             this.Controls.Add(this.VLvl1Lbl);
             this.Name = "VerbsLvl1Learn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VerbsLvl1Learn";
             this.ResumeLayout(false);
             this.PerformLayout();
