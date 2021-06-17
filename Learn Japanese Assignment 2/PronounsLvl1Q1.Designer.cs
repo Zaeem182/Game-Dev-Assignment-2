@@ -152,7 +152,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
+            this.MaximizeBox = false;
             this.Name = "PronounsLvl1Q1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PronounsLvl1Q1";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -70,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option4.TabIndex = 51;
             this.PQ1Option4.Text = "Kanojo\"彼女\"";
             this.PQ1Option4.UseVisualStyleBackColor = true;
+            this.PQ1Option4.Click += new System.EventHandler(this.PQ1Option4_Click);
             // 
             // PQ1Option3
             // 
@@ -106,6 +107,7 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.TabIndex = 47;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
@@ -151,7 +153,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
+            this.MaximizeBox = false;
             this.Name = "PronounsLvl1Q4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PronounsLvl1Q4";
             this.ResumeLayout(false);
             this.PerformLayout();

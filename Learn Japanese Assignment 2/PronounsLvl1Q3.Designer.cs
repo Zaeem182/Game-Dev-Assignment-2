@@ -78,6 +78,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option3.TabIndex = 40;
             this.PQ1Option3.Text = "Anata \"貴方\"";
             this.PQ1Option3.UseVisualStyleBackColor = true;
+            this.PQ1Option3.Click += new System.EventHandler(this.PQ1Option3_Click);
             // 
             // PQ1Option2
             // 
@@ -105,6 +106,7 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.TabIndex = 37;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
@@ -150,7 +152,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
+            this.MaximizeBox = false;
             this.Name = "PronounsLvl1Q3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PronounsLvl1Q3";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -96,6 +96,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option1.TabIndex = 28;
             this.PQ1Option1.Text = "Kare\"彼\"";
             this.PQ1Option1.UseVisualStyleBackColor = true;
+            this.PQ1Option1.Click += new System.EventHandler(this.PQ1Option1_Click);
             // 
             // ExitBtn
             // 
@@ -151,7 +152,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
+            this.MaximizeBox = false;
             this.Name = "PronounsLvl1Q2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PronounsLvl1Q2";
             this.ResumeLayout(false);
             this.PerformLayout();

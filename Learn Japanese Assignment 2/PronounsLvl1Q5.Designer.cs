@@ -88,6 +88,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option2.TabIndex = 59;
             this.PQ1Option2.Text = "Wareware \"我々\"";
             this.PQ1Option2.UseVisualStyleBackColor = true;
+            this.PQ1Option2.Click += new System.EventHandler(this.PQ1Option2_Click);
             // 
             // PQ1Option1
             // 
@@ -106,6 +107,7 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.TabIndex = 57;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
@@ -151,7 +153,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
+            this.MaximizeBox = false;
             this.Name = "PronounsLvl1Q5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PronounsLvl1Q5";
             this.ResumeLayout(false);
             this.PerformLayout();
