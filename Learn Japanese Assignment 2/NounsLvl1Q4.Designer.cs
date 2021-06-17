@@ -70,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option4.TabIndex = 141;
             this.VQ1Option4.Text = "Nihon \"日本\"";
             this.VQ1Option4.UseVisualStyleBackColor = true;
+            this.VQ1Option4.Click += new System.EventHandler(this.VQ1Option4_Click);
             // 
             // VQ1Option3
             // 
