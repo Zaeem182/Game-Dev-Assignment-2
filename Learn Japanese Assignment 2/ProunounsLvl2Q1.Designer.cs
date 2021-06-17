@@ -1,7 +1,7 @@
 ﻿
 namespace Learn_Japanese_Assignment_2
 {
-    partial class ProunounsLvl2Learn
+    partial class ProunounsLvl2Q1
     {
         /// <summary>
         /// Required designer variable.
@@ -42,9 +42,9 @@ namespace Learn_Japanese_Assignment_2
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl1.Location = new System.Drawing.Point(271, 149);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(284, 46);
+            this.lbl1.Size = new System.Drawing.Size(225, 46);
             this.lbl1.TabIndex = 0;
-            this.lbl1.Text = "Click next to begin";
+            this.lbl1.Text = "kare-ra(彼等)";
             this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // textBox1
@@ -85,7 +85,7 @@ namespace Learn_Japanese_Assignment_2
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // ProunounsLvl2Learn
+            // ProunounsLvl2Q1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,7 +95,8 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
-            this.Name = "ProunounsLvl2Learn";
+            this.Name = "ProunounsLvl2Q1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProunounsLvl2Learn";
             this.Load += new System.EventHandler(this.ProunounsLvl2Learn_Load);
             this.ResumeLayout(false);

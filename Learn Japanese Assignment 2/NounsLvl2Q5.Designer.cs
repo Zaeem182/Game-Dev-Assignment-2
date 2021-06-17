@@ -1,7 +1,7 @@
 ﻿
 namespace Learn_Japanese_Assignment_2
 {
-    partial class VerbsLvl2Learn
+    partial class NounsLvl2Q5
     {
         /// <summary>
         /// Required designer variable.
@@ -38,52 +38,50 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(704, 413);
+            this.btnExit.Location = new System.Drawing.Point(703, 411);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 9;
+            this.btnExit.TabIndex = 14;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(613, 413);
+            this.btnBack.Location = new System.Drawing.Point(612, 411);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
-            this.btnBack.TabIndex = 8;
+            this.btnBack.TabIndex = 13;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(485, 305);
+            this.btnNext.Location = new System.Drawing.Point(484, 303);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
-            this.btnNext.TabIndex = 7;
+            this.btnNext.TabIndex = 12;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(290, 305);
+            this.textBox1.Location = new System.Drawing.Point(289, 303);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 23);
-            this.textBox1.TabIndex = 6;
+            this.textBox1.TabIndex = 11;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl1.Location = new System.Drawing.Point(276, 147);
+            this.lbl1.Location = new System.Drawing.Point(275, 145);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(284, 46);
-            this.lbl1.TabIndex = 5;
-            this.lbl1.Text = "Click next to begin";
+            this.lbl1.Size = new System.Drawing.Size(230, 46);
+            this.lbl1.TabIndex = 10;
+            this.lbl1.Text = "Sensei (先生)";
             // 
-            // VerbsLvl2Learn
+            // NounsLvl2Q5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,8 +91,8 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
-            this.Name = "VerbsLvl2Learn";
-            this.Text = "VerbsLvl2Learn";
+            this.Name = "NounsLvl2Q5";
+            this.Text = "NounsLvl2Q5";
             this.ResumeLayout(false);
             this.PerformLayout();
 
