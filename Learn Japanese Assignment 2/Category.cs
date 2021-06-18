@@ -109,7 +109,7 @@ namespace Learn_Japanese_Assignment_2
         private void VLvl2Btn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            NounsLvl1Learn start = new NounsLvl1Learn();
+            VerbsLvl2Q1 start = new VerbsLvl2Q1();
             start.Show();
         }
 

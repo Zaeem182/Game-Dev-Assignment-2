@@ -21,7 +21,7 @@ namespace Learn_Japanese_Assignment_2
                 textBox1.ForeColor = Color.Green;
                 MessageBox.Show("Correct!");
                 this.Hide();
-                VerbsLvl1Q4 start = new VerbsLvl1Q4();
+                VerbsLvl2Q4 start = new VerbsLvl2Q4();
                 start.Show();
             }
             else
@@ -29,7 +29,7 @@ namespace Learn_Japanese_Assignment_2
                 textBox1.ForeColor = Color.Red;
                 MessageBox.Show("Incorrect!");
                 this.Hide();
-                VerbsLvl1Q4 start = new VerbsLvl1Q4();
+                VerbsLvl2Q4 start = new VerbsLvl2Q4();
                 start.Show();
             }
 

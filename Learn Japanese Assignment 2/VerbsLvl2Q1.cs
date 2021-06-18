@@ -22,7 +22,7 @@ namespace Learn_Japanese_Assignment_2
                 textBox1.ForeColor = Color.Green;
                 MessageBox.Show("Correct!");
                 this.Hide();
-                VerbsLvl1Q2 start = new VerbsLvl1Q2();
+                VerbsLvl2Q2 start = new VerbsLvl2Q2();
                 start.Show();
             }
             else
