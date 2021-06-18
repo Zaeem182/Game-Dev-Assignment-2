@@ -16,23 +16,7 @@ namespace Learn_Japanese_Assignment_2
         }
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "We")
-            {
-                textBox1.ForeColor = Color.Green;
-                MessageBox.Show("Correct!");
-                this.Hide();
-                ProunounsLvl2Q3 start = new ProunounsLvl2Q3();
-                start.Show();
-            }
-            else
-            {
-                textBox1.ForeColor = Color.Red;
-                MessageBox.Show("Incorrect!");
-                this.Hide();
-                ProunounsLvl2Q3 start = new ProunounsLvl2Q3();
-                start.Show();
-
-            }
+            
 
         }
 
@@ -51,6 +35,27 @@ namespace Learn_Japanese_Assignment_2
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNext_Click_1(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "We")
+            {
+                textBox1.ForeColor = Color.Green;
+                MessageBox.Show("Correct!");
+                this.Hide();
+                ProunounsLvl2Q3 start = new ProunounsLvl2Q3();
+                start.Show();
+            }
+            else
+            {
+                textBox1.ForeColor = Color.Red;
+                MessageBox.Show("Incorrect!");
+                this.Hide();
+                ProunounsLvl2Q3 start = new ProunounsLvl2Q3();
+                start.Show();
+
+            }
         }
     }
 }

@@ -43,6 +43,9 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn = new System.Windows.Forms.Button();
             this.CategoryHeadingLbl = new System.Windows.Forms.Label();
             this.CategorySubHeadingLbl = new System.Windows.Forms.Label();
+            this.NLvl2Btn1 = new System.Windows.Forms.Button();
+            this.VLvl2Btn1 = new System.Windows.Forms.Button();
+            this.PLvl2Btn1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NounCategoryBtn
@@ -116,36 +119,24 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NLvl2Btn
             // 
-            this.NLvl2Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NLvl2Btn.Location = new System.Drawing.Point(646, 166);
+            this.NLvl2Btn.Location = new System.Drawing.Point(0, 0);
             this.NLvl2Btn.Name = "NLvl2Btn";
-            this.NLvl2Btn.Size = new System.Drawing.Size(199, 80);
-            this.NLvl2Btn.TabIndex = 6;
-            this.NLvl2Btn.Text = "Level 2";
-            this.NLvl2Btn.UseVisualStyleBackColor = true;
-            this.NLvl2Btn.Visible = false;
+            this.NLvl2Btn.Size = new System.Drawing.Size(75, 23);
+            this.NLvl2Btn.TabIndex = 16;
             // 
             // VLvl2Btn
             // 
-            this.VLvl2Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VLvl2Btn.Location = new System.Drawing.Point(646, 280);
+            this.VLvl2Btn.Location = new System.Drawing.Point(0, 0);
             this.VLvl2Btn.Name = "VLvl2Btn";
-            this.VLvl2Btn.Size = new System.Drawing.Size(199, 80);
-            this.VLvl2Btn.TabIndex = 7;
-            this.VLvl2Btn.Text = "Level 2";
-            this.VLvl2Btn.UseVisualStyleBackColor = true;
-            this.VLvl2Btn.Visible = false;
+            this.VLvl2Btn.Size = new System.Drawing.Size(75, 23);
+            this.VLvl2Btn.TabIndex = 15;
             // 
             // PLvl2Btn
             // 
-            this.PLvl2Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PLvl2Btn.Location = new System.Drawing.Point(646, 389);
+            this.PLvl2Btn.Location = new System.Drawing.Point(0, 0);
             this.PLvl2Btn.Name = "PLvl2Btn";
-            this.PLvl2Btn.Size = new System.Drawing.Size(199, 80);
-            this.PLvl2Btn.TabIndex = 8;
-            this.PLvl2Btn.Text = "Level 2";
-            this.PLvl2Btn.UseVisualStyleBackColor = true;
-            this.PLvl2Btn.Visible = false;
+            this.PLvl2Btn.Size = new System.Drawing.Size(75, 23);
+            this.PLvl2Btn.TabIndex = 14;
             // 
             // ExitBtn
             // 
@@ -196,11 +187,50 @@ namespace Learn_Japanese_Assignment_2
             this.CategorySubHeadingLbl.TabIndex = 13;
             this.CategorySubHeadingLbl.Text = "Select one of the categories below:";
             // 
+            // NLvl2Btn1
+            // 
+            this.NLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.NLvl2Btn1.Location = new System.Drawing.Point(655, 168);
+            this.NLvl2Btn1.Name = "NLvl2Btn1";
+            this.NLvl2Btn1.Size = new System.Drawing.Size(199, 80);
+            this.NLvl2Btn1.TabIndex = 17;
+            this.NLvl2Btn1.Text = "Level 2";
+            this.NLvl2Btn1.UseVisualStyleBackColor = true;
+            this.NLvl2Btn1.Visible = false;
+            this.NLvl2Btn1.Click += new System.EventHandler(this.NLvl2Btn1_Click);
+            // 
+            // VLvl2Btn1
+            // 
+            this.VLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.VLvl2Btn1.Location = new System.Drawing.Point(655, 282);
+            this.VLvl2Btn1.Name = "VLvl2Btn1";
+            this.VLvl2Btn1.Size = new System.Drawing.Size(199, 80);
+            this.VLvl2Btn1.TabIndex = 18;
+            this.VLvl2Btn1.Text = "Level 2";
+            this.VLvl2Btn1.UseVisualStyleBackColor = true;
+            this.VLvl2Btn1.Visible = false;
+            this.VLvl2Btn1.Click += new System.EventHandler(this.VLvl2Btn1_Click);
+            // 
+            // PLvl2Btn1
+            // 
+            this.PLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PLvl2Btn1.Location = new System.Drawing.Point(655, 391);
+            this.PLvl2Btn1.Name = "PLvl2Btn1";
+            this.PLvl2Btn1.Size = new System.Drawing.Size(199, 80);
+            this.PLvl2Btn1.TabIndex = 19;
+            this.PLvl2Btn1.Text = "Level 2";
+            this.PLvl2Btn1.UseVisualStyleBackColor = true;
+            this.PLvl2Btn1.Visible = false;
+            this.PLvl2Btn1.Click += new System.EventHandler(this.PLvl2Btn1_Click);
+            // 
             // Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.PLvl2Btn1);
+            this.Controls.Add(this.VLvl2Btn1);
+            this.Controls.Add(this.NLvl2Btn1);
             this.Controls.Add(this.CategorySubHeadingLbl);
             this.Controls.Add(this.CategoryHeadingLbl);
             this.Controls.Add(this.BackBtn);
@@ -240,6 +270,9 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label CategoryHeadingLbl;
         private System.Windows.Forms.Label CategorySubHeadingLbl;
         private System.Windows.Forms.Button BackBtn;
+        private System.Windows.Forms.Button NLvl2Btn1;
+        private System.Windows.Forms.Button VLvl2Btn1;
+        private System.Windows.Forms.Button PLvl2Btn1;
     }
 }
 
