@@ -43,12 +43,13 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl2Btn1 = new System.Windows.Forms.Button();
             this.VLvl2Btn1 = new System.Windows.Forms.Button();
             this.PLvl2Btn1 = new System.Windows.Forms.Button();
+            this.BonusBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NounCategoryBtn
             // 
             this.NounCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NounCategoryBtn.Location = new System.Drawing.Point(114, 166);
+            this.NounCategoryBtn.Location = new System.Drawing.Point(114, 155);
             this.NounCategoryBtn.Name = "NounCategoryBtn";
             this.NounCategoryBtn.Size = new System.Drawing.Size(199, 80);
             this.NounCategoryBtn.TabIndex = 0;
@@ -59,7 +60,7 @@ namespace Learn_Japanese_Assignment_2
             // VerbCategoryBtn
             // 
             this.VerbCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VerbCategoryBtn.Location = new System.Drawing.Point(114, 280);
+            this.VerbCategoryBtn.Location = new System.Drawing.Point(114, 270);
             this.VerbCategoryBtn.Name = "VerbCategoryBtn";
             this.VerbCategoryBtn.Size = new System.Drawing.Size(199, 80);
             this.VerbCategoryBtn.TabIndex = 1;
@@ -70,7 +71,7 @@ namespace Learn_Japanese_Assignment_2
             // PronounCategoryBtn
             // 
             this.PronounCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PronounCategoryBtn.Location = new System.Drawing.Point(114, 389);
+            this.PronounCategoryBtn.Location = new System.Drawing.Point(114, 377);
             this.PronounCategoryBtn.Name = "PronounCategoryBtn";
             this.PronounCategoryBtn.Size = new System.Drawing.Size(199, 80);
             this.PronounCategoryBtn.TabIndex = 2;
@@ -81,7 +82,7 @@ namespace Learn_Japanese_Assignment_2
             // NLvl1Btn
             // 
             this.NLvl1Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NLvl1Btn.Location = new System.Drawing.Point(380, 166);
+            this.NLvl1Btn.Location = new System.Drawing.Point(380, 157);
             this.NLvl1Btn.Name = "NLvl1Btn";
             this.NLvl1Btn.Size = new System.Drawing.Size(199, 80);
             this.NLvl1Btn.TabIndex = 3;
@@ -93,7 +94,7 @@ namespace Learn_Japanese_Assignment_2
             // VLvl1Btn
             // 
             this.VLvl1Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VLvl1Btn.Location = new System.Drawing.Point(380, 280);
+            this.VLvl1Btn.Location = new System.Drawing.Point(380, 270);
             this.VLvl1Btn.Name = "VLvl1Btn";
             this.VLvl1Btn.Size = new System.Drawing.Size(199, 80);
             this.VLvl1Btn.TabIndex = 4;
@@ -105,7 +106,7 @@ namespace Learn_Japanese_Assignment_2
             // PLvl1Btn
             // 
             this.PLvl1Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PLvl1Btn.Location = new System.Drawing.Point(380, 389);
+            this.PLvl1Btn.Location = new System.Drawing.Point(380, 377);
             this.PLvl1Btn.Name = "PLvl1Btn";
             this.PLvl1Btn.Size = new System.Drawing.Size(199, 80);
             this.PLvl1Btn.TabIndex = 5;
@@ -166,7 +167,7 @@ namespace Learn_Japanese_Assignment_2
             // NLvl2Btn1
             // 
             this.NLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NLvl2Btn1.Location = new System.Drawing.Point(655, 168);
+            this.NLvl2Btn1.Location = new System.Drawing.Point(655, 157);
             this.NLvl2Btn1.Name = "NLvl2Btn1";
             this.NLvl2Btn1.Size = new System.Drawing.Size(199, 80);
             this.NLvl2Btn1.TabIndex = 17;
@@ -178,7 +179,7 @@ namespace Learn_Japanese_Assignment_2
             // VLvl2Btn1
             // 
             this.VLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.VLvl2Btn1.Location = new System.Drawing.Point(655, 282);
+            this.VLvl2Btn1.Location = new System.Drawing.Point(655, 270);
             this.VLvl2Btn1.Name = "VLvl2Btn1";
             this.VLvl2Btn1.Size = new System.Drawing.Size(199, 80);
             this.VLvl2Btn1.TabIndex = 18;
@@ -190,7 +191,7 @@ namespace Learn_Japanese_Assignment_2
             // PLvl2Btn1
             // 
             this.PLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.PLvl2Btn1.Location = new System.Drawing.Point(655, 391);
+            this.PLvl2Btn1.Location = new System.Drawing.Point(655, 377);
             this.PLvl2Btn1.Name = "PLvl2Btn1";
             this.PLvl2Btn1.Size = new System.Drawing.Size(199, 80);
             this.PLvl2Btn1.TabIndex = 19;
@@ -199,11 +200,23 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl2Btn1.Visible = false;
             this.PLvl2Btn1.Click += new System.EventHandler(this.PLvl2Btn1_Click);
             // 
+            // BonusBtn
+            // 
+            this.BonusBtn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BonusBtn.Location = new System.Drawing.Point(370, 482);
+            this.BonusBtn.Name = "BonusBtn";
+            this.BonusBtn.Size = new System.Drawing.Size(220, 66);
+            this.BonusBtn.TabIndex = 20;
+            this.BonusBtn.Text = "Bonus Level";
+            this.BonusBtn.UseVisualStyleBackColor = true;
+            this.BonusBtn.Visible = false;
+            // 
             // Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.BonusBtn);
             this.Controls.Add(this.PLvl2Btn1);
             this.Controls.Add(this.VLvl2Btn1);
             this.Controls.Add(this.NLvl2Btn1);
@@ -243,6 +256,7 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button NLvl2Btn1;
         private System.Windows.Forms.Button VLvl2Btn1;
         private System.Windows.Forms.Button PLvl2Btn1;
+        private System.Windows.Forms.Button BonusBtn;
     }
 }
 

@@ -35,6 +35,12 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn = new System.Windows.Forms.Button();
             this.NounLvl1instructionLbl = new System.Windows.Forms.Label();
             this.VLvl1Lbl = new System.Windows.Forms.Label();
+            this.VQ1Study2 = new System.Windows.Forms.Label();
+            this.VQ1Study3 = new System.Windows.Forms.Label();
+            this.VQ1Study4 = new System.Windows.Forms.Label();
+            this.VQ1Study5 = new System.Windows.Forms.Label();
+            this.VerbsLvl1 = new System.Windows.Forms.Label();
+            this.VQ1Study1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NextBtn
@@ -80,7 +86,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.NounLvl1instructionLbl.AutoSize = true;
             this.NounLvl1instructionLbl.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NounLvl1instructionLbl.Location = new System.Drawing.Point(23, 93);
+            this.NounLvl1instructionLbl.Location = new System.Drawing.Point(12, 68);
             this.NounLvl1instructionLbl.Name = "NounLvl1instructionLbl";
             this.NounLvl1instructionLbl.Size = new System.Drawing.Size(723, 32);
             this.NounLvl1instructionLbl.TabIndex = 7;
@@ -96,11 +102,77 @@ namespace Learn_Japanese_Assignment_2
             this.VLvl1Lbl.TabIndex = 6;
             this.VLvl1Lbl.Text = "Verbs Level 1";
             // 
+            // VQ1Study2
+            // 
+            this.VQ1Study2.AutoSize = true;
+            this.VQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.VQ1Study2.Location = new System.Drawing.Point(12, 218);
+            this.VQ1Study2.Name = "VQ1Study2";
+            this.VQ1Study2.Size = new System.Drawing.Size(227, 30);
+            this.VQ1Study2.TabIndex = 37;
+            this.VQ1Study2.Text = "Eat = Taberu \"たべる\"";
+            // 
+            // VQ1Study3
+            // 
+            this.VQ1Study3.AutoSize = true;
+            this.VQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.VQ1Study3.Location = new System.Drawing.Point(12, 271);
+            this.VQ1Study3.Name = "VQ1Study3";
+            this.VQ1Study3.Size = new System.Drawing.Size(295, 30);
+            this.VQ1Study3.TabIndex = 36;
+            this.VQ1Study3.Text = "Begin = Hajimaru \"はじまる\"";
+            // 
+            // VQ1Study4
+            // 
+            this.VQ1Study4.AutoSize = true;
+            this.VQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.VQ1Study4.Location = new System.Drawing.Point(12, 321);
+            this.VQ1Study4.Name = "VQ1Study4";
+            this.VQ1Study4.Size = new System.Drawing.Size(246, 30);
+            this.VQ1Study4.TabIndex = 35;
+            this.VQ1Study4.Text = "Get up = Okiru \"おきる\"";
+            // 
+            // VQ1Study5
+            // 
+            this.VQ1Study5.AutoSize = true;
+            this.VQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.VQ1Study5.Location = new System.Drawing.Point(12, 374);
+            this.VQ1Study5.Name = "VQ1Study5";
+            this.VQ1Study5.Size = new System.Drawing.Size(293, 30);
+            this.VQ1Study5.TabIndex = 34;
+            this.VQ1Study5.Text = "Believe = Shinjiru \"しんじる\"";
+            // 
+            // VerbsLvl1
+            // 
+            this.VerbsLvl1.AutoSize = true;
+            this.VerbsLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VerbsLvl1.Location = new System.Drawing.Point(12, 116);
+            this.VerbsLvl1.Name = "VerbsLvl1";
+            this.VerbsLvl1.Size = new System.Drawing.Size(238, 32);
+            this.VerbsLvl1.TabIndex = 33;
+            this.VerbsLvl1.Text = "English to Japanese";
+            // 
+            // VQ1Study1
+            // 
+            this.VQ1Study1.AutoSize = true;
+            this.VQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.VQ1Study1.Location = new System.Drawing.Point(12, 169);
+            this.VQ1Study1.Name = "VQ1Study1";
+            this.VQ1Study1.Size = new System.Drawing.Size(275, 30);
+            this.VQ1Study1.TabIndex = 32;
+            this.VQ1Study1.Text = "Change = Kawaru \"変える\"";
+            // 
             // VerbsLvl1Learn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.VQ1Study2);
+            this.Controls.Add(this.VQ1Study3);
+            this.Controls.Add(this.VQ1Study4);
+            this.Controls.Add(this.VQ1Study5);
+            this.Controls.Add(this.VerbsLvl1);
+            this.Controls.Add(this.VQ1Study1);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.MuteBtn);
@@ -125,5 +197,11 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button BackBtn;
         private System.Windows.Forms.Label NounLvl1instructionLbl;
         private System.Windows.Forms.Label VLvl1Lbl;
+        private System.Windows.Forms.Label VQ1Study2;
+        private System.Windows.Forms.Label VQ1Study3;
+        private System.Windows.Forms.Label VQ1Study4;
+        private System.Windows.Forms.Label VQ1Study5;
+        private System.Windows.Forms.Label VerbsLvl1;
+        private System.Windows.Forms.Label VQ1Study1;
     }
 }
