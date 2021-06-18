@@ -114,7 +114,7 @@ namespace Learn_Japanese_Assignment_2
         private void PLvl2Btn1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ProunounsLvl2Q1 start = new ProunounsLvl2Q1();
+            PronounsLvl2Q1 start = new PronounsLvl2Q1();
             start.Show();
         }
     }

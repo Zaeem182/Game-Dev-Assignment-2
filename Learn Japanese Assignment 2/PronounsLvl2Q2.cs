@@ -8,20 +8,26 @@ using System.Windows.Forms;
 
 namespace Learn_Japanese_Assignment_2
 {
-    public partial class ProunounsLvl2Q5 : Form
+    public partial class PronounsLvl2Q2 : Form
     {
-        public ProunounsLvl2Q5()
+        public PronounsLvl2Q2()
         {
             InitializeComponent();
         }
-        private void btnNext_Click(object sender, EventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text == "What")
+
+        }
+
+        private void btnNext_Click_1(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "We")
             {
                 textBox1.ForeColor = Color.Green;
                 MessageBox.Show("Correct!");
                 this.Hide();
-                Category start = new Category();
+                PronounsLvl2Q3 start = new PronounsLvl2Q3();
                 start.Show();
             }
             else
@@ -29,28 +35,22 @@ namespace Learn_Japanese_Assignment_2
                 textBox1.ForeColor = Color.Red;
                 MessageBox.Show("Incorrect!");
                 this.Hide();
-                Category start = new Category();
+                PronounsLvl2Q3 start = new PronounsLvl2Q3();
                 start.Show();
 
             }
-
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void btnBack_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Category start = new Category();
             start.Show();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnExit_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

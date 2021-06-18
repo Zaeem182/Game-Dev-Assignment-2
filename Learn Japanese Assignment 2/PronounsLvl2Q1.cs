@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Learn_Japanese_Assignment_2
 {
-    public partial class ProunounsLvl2Q1 : Form
+    public partial class PronounsLvl2Q1 : Form
     {
-        public ProunounsLvl2Q1()
+        public PronounsLvl2Q1()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace Learn_Japanese_Assignment_2
                 textBox1.ForeColor = Color.Green;
                 MessageBox.Show("Correct!");
                 this.Hide();
-                ProunounsLvl2Q2 start = new ProunounsLvl2Q2();
+                PronounsLvl2Q2 start = new PronounsLvl2Q2();
                 start.Show();
             }
             else
@@ -40,7 +40,7 @@ namespace Learn_Japanese_Assignment_2
                 textBox1.ForeColor = Color.Red;
                 MessageBox.Show("Incorrect!");
                 this.Hide();
-                ProunounsLvl2Q2 start = new ProunounsLvl2Q2();
+                PronounsLvl2Q2 start = new PronounsLvl2Q2();
                 start.Show();
 
             }

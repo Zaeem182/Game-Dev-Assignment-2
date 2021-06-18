@@ -44,6 +44,7 @@ namespace Learn_Japanese_Assignment_2
             this.btnExit.TabIndex = 14;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // btnBack
             // 
@@ -53,6 +54,7 @@ namespace Learn_Japanese_Assignment_2
             this.btnBack.TabIndex = 13;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
             // btnNext
             // 
@@ -94,6 +96,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.lbl1);
             this.Name = "NounsLvl2Q2";
             this.Text = "NounsLvl2Q2";
+            this.Load += new System.EventHandler(this.NounsLvl2Q2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

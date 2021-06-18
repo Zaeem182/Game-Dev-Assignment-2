@@ -1,7 +1,7 @@
 ﻿
 namespace Learn_Japanese_Assignment_2
 {
-    partial class ProunounsLvl2Q5
+    partial class PronounsLvl2Q5
     {
         /// <summary>
         /// Required designer variable.
@@ -44,6 +44,7 @@ namespace Learn_Japanese_Assignment_2
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // btnBack
             // 
@@ -53,6 +54,7 @@ namespace Learn_Japanese_Assignment_2
             this.btnBack.TabIndex = 8;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
             // btnNext
             // 
@@ -62,6 +64,7 @@ namespace Learn_Japanese_Assignment_2
             this.btnNext.TabIndex = 7;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click_1);
             // 
             // textBox1
             // 
@@ -81,7 +84,7 @@ namespace Learn_Japanese_Assignment_2
             this.lbl1.TabIndex = 5;
             this.lbl1.Text = "Nani(何)";
             // 
-            // ProunounsLvl2Q5
+            // PronounsLvl2Q5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -91,7 +94,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
-            this.Name = "ProunounsLvl2Q5";
+            this.Name = "PronounsLvl2Q5";
             this.Text = "ProunounsLvl2Q5";
             this.ResumeLayout(false);
             this.PerformLayout();

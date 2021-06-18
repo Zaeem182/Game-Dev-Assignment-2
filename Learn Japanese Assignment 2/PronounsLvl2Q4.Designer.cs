@@ -1,7 +1,7 @@
 ﻿
 namespace Learn_Japanese_Assignment_2
 {
-    partial class ProunounsLvl2Q2
+    partial class PronounsLvl2Q4
     {
         /// <summary>
         /// Required designer variable.
@@ -38,25 +38,27 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(705, 410);
+            this.btnExit.Location = new System.Drawing.Point(703, 416);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(614, 410);
+            this.btnBack.Location = new System.Drawing.Point(612, 416);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 8;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(486, 302);
+            this.btnNext.Location = new System.Drawing.Point(484, 308);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
             this.btnNext.TabIndex = 7;
@@ -66,7 +68,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(291, 302);
+            this.textBox1.Location = new System.Drawing.Point(289, 308);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 23);
             this.textBox1.TabIndex = 6;
@@ -76,13 +78,13 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl1.Location = new System.Drawing.Point(277, 144);
+            this.lbl1.Location = new System.Drawing.Point(275, 150);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(271, 46);
+            this.lbl1.Size = new System.Drawing.Size(153, 46);
             this.lbl1.TabIndex = 5;
-            this.lbl1.Text = "Wareware(我々)";
+            this.lbl1.Text = "Dare(誰)";
             // 
-            // ProunounsLvl2Q2
+            // PronounsLvl2Q4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -92,8 +94,8 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
-            this.Name = "ProunounsLvl2Q2";
-            this.Text = "ProunounsLvl2Q2";
+            this.Name = "PronounsLvl2Q4";
+            this.Text = "ProunounsLvl2Q4";
             this.ResumeLayout(false);
             this.PerformLayout();
 

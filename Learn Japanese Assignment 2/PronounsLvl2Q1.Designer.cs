@@ -1,7 +1,7 @@
 ﻿
 namespace Learn_Japanese_Assignment_2
 {
-    partial class ProunounsLvl2Q1
+    partial class PronounsLvl2Q1
     {
         /// <summary>
         /// Required designer variable.
