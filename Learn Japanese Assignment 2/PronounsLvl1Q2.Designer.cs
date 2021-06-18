@@ -69,6 +69,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option4.TabIndex = 31;
             this.PQ1Option4.Text = "Shuu \"週\"";
             this.PQ1Option4.UseVisualStyleBackColor = true;
+            this.PQ1Option4.Click += new System.EventHandler(this.PQ1Option4_Click);
             // 
             // PQ1Option3
             // 
@@ -78,6 +79,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option3.TabIndex = 30;
             this.PQ1Option3.Text = "Watashi \"私\"";
             this.PQ1Option3.UseVisualStyleBackColor = true;
+            this.PQ1Option3.Click += new System.EventHandler(this.PQ1Option3_Click);
             // 
             // PQ1Option2
             // 
@@ -87,6 +89,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option2.TabIndex = 29;
             this.PQ1Option2.Text = "Naru\"なる\"";
             this.PQ1Option2.UseVisualStyleBackColor = true;
+            this.PQ1Option2.Click += new System.EventHandler(this.PQ1Option2_Click);
             // 
             // PQ1Option1
             // 

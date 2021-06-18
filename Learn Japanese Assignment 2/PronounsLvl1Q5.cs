@@ -37,41 +37,36 @@ namespace Learn_Japanese_Assignment_2
             }
         }
 
-
-
         private int Score()
         {
-            int i;
-            for (i = 0; i < 5; i++)
-            {
+            int counter = 0;
+
                 if (PronounsLvl1Q1.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
 
                 if (PronounsLvl1Q2.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
 
                 if (PronounsLvl1Q3.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
                 if (PronounsLvl1Q4.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
                 if (correct == true)
                 {
-                    i++;
-                    break;
+                    counter++;
                 }
-            }
-            return i;
-    
+
+            return counter;
         }
-        private void NextBtn_Click(object sender, EventArgs e)
+        private void SubmitBtn_Click(object sender, EventArgs e)
         {
             String title = "You Scored";
             MessageBox.Show("" + Score() + " Out of 5", title);
@@ -87,6 +82,36 @@ namespace Learn_Japanese_Assignment_2
             correct = true;
 
             PQ1Option2.BackColor = Color.Green;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
+        }
+
+        private void PQ1Option1_Click(object sender, EventArgs e)
+        {
+            PQ1Option1.BackColor = Color.Red;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
+        }
+
+        private void PQ1Option3_Click(object sender, EventArgs e)
+        {
+            PQ1Option3.BackColor = Color.Red;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
+        }
+
+        private void PQ1Option4_Click(object sender, EventArgs e)
+        {
+            PQ1Option2.BackColor = Color.Red;
 
             PQ1Option1.Enabled = false;
             PQ1Option2.Enabled = false;

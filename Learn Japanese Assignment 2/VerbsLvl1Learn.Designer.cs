@@ -39,7 +39,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NextBtn
             // 
-            this.NextBtn.Location = new System.Drawing.Point(500, 460);
+            this.NextBtn.Location = new System.Drawing.Point(510, 494);
             this.NextBtn.Name = "NextBtn";
             this.NextBtn.Size = new System.Drawing.Size(80, 37);
             this.NextBtn.TabIndex = 11;
@@ -49,7 +49,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // ExitBtn
             // 
-            this.ExitBtn.Location = new System.Drawing.Point(763, 460);
+            this.ExitBtn.Location = new System.Drawing.Point(773, 494);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(85, 37);
             this.ExitBtn.TabIndex = 10;
@@ -59,7 +59,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // MuteBtn
             // 
-            this.MuteBtn.Location = new System.Drawing.Point(670, 460);
+            this.MuteBtn.Location = new System.Drawing.Point(680, 494);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(55, 38);
             this.MuteBtn.TabIndex = 9;
@@ -68,7 +68,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // BackBtn
             // 
-            this.BackBtn.Location = new System.Drawing.Point(23, 460);
+            this.BackBtn.Location = new System.Drawing.Point(33, 494);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(74, 38);
             this.BackBtn.TabIndex = 8;
@@ -100,13 +100,15 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 523);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.NounLvl1instructionLbl);
             this.Controls.Add(this.VLvl1Lbl);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "VerbsLvl1Learn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VerbsLvl1Learn";

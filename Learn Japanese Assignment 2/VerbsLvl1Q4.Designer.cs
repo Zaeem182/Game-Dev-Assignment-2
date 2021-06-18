@@ -70,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option4.TabIndex = 91;
             this.VQ1Option4.Text = "Taberu \"たべる\"";
             this.VQ1Option4.UseVisualStyleBackColor = true;
+            this.VQ1Option4.Click += new System.EventHandler(this.VQ1Option4_Click);
             // 
             // VQ1Option3
             // 
@@ -79,6 +80,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option3.TabIndex = 90;
             this.VQ1Option3.Text = "Shinjiru \"しんじる\"";
             this.VQ1Option3.UseVisualStyleBackColor = true;
+            this.VQ1Option3.Click += new System.EventHandler(this.VQ1Option3_Click);
             // 
             // VQ1Option2
             // 
@@ -88,6 +90,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option2.TabIndex = 89;
             this.VQ1Option2.Text = "Kare \"彼\"";
             this.VQ1Option2.UseVisualStyleBackColor = true;
+            this.VQ1Option2.Click += new System.EventHandler(this.VQ1Option2_Click);
             // 
             // VQ1Option1
             // 
@@ -97,6 +100,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option1.TabIndex = 88;
             this.VQ1Option1.Text = "Shuu \"週\"";
             this.VQ1Option1.UseVisualStyleBackColor = true;
+            this.VQ1Option1.Click += new System.EventHandler(this.VQ1Option1_Click);
             // 
             // ExitBtn
             // 

@@ -27,6 +27,7 @@ namespace Learn_Japanese_Assignment_2
             Application.Exit();
         }
 
+        //correct answer
         private void PQ1Option3_Click(object sender, EventArgs e)
         {
             correct = true;
@@ -42,9 +43,23 @@ namespace Learn_Japanese_Assignment_2
 
         private void NextBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            PronounsLvl1Q2 start = new PronounsLvl1Q2();
-            start.Show();
+            if (PQ1Option1.Enabled == true || PQ1Option2.Enabled == true || PQ1Option3.Enabled == true || PQ1Option4.Enabled == true)
+            {
+                string message = "Please select an answer.";
+                string title = "Did not Answer";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    // Closes Messege Box and allows user to answer the question again.
+                } 
+            }
+            else
+            {
+                this.Hide();
+                PronounsLvl1Q2 start = new PronounsLvl1Q2();
+                start.Show();
+            }
         }
 
         private void CancelBtn_Click_1(object sender, EventArgs e)
@@ -64,6 +79,36 @@ namespace Learn_Japanese_Assignment_2
                 // Closes the MessegeBox and allows user to continue with the quiz. 
             }
             
+        }
+        //wrong answers
+        private void PQ1Option1_Click(object sender, EventArgs e)
+        {
+            PQ1Option1.BackColor = Color.Red;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
+        }
+
+        private void PQ1Option2_Click(object sender, EventArgs e)
+        {
+            PQ1Option2.BackColor = Color.Red;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
+        }
+
+        private void PQ1Option4_Click(object sender, EventArgs e)
+        {
+            PQ1Option4.BackColor = Color.Red;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
         }
     }
 }

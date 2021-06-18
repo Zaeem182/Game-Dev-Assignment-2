@@ -31,10 +31,10 @@ namespace Learn_Japanese_Assignment_2
         {
             this.NQ1 = new System.Windows.Forms.Label();
             this.NLvl1Q1Lbl = new System.Windows.Forms.Label();
-            this.VQ1Option4 = new System.Windows.Forms.Button();
-            this.VQ1Option3 = new System.Windows.Forms.Button();
-            this.VQ1Option2 = new System.Windows.Forms.Button();
-            this.VQ1Option1 = new System.Windows.Forms.Button();
+            this.NQ1Option4 = new System.Windows.Forms.Button();
+            this.NQ1Option3 = new System.Windows.Forms.Button();
+            this.NQ1Option2 = new System.Windows.Forms.Button();
+            this.NQ1Option1 = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.MuteBtn = new System.Windows.Forms.Button();
             this.NextBtn = new System.Windows.Forms.Button();
@@ -62,46 +62,49 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl1Q1Lbl.TabIndex = 132;
             this.NLvl1Q1Lbl.Text = "Nouns Level 1";
             // 
-            // VQ1Option4
+            // NQ1Option4
             // 
-            this.VQ1Option4.Location = new System.Drawing.Point(470, 412);
-            this.VQ1Option4.Name = "VQ1Option4";
-            this.VQ1Option4.Size = new System.Drawing.Size(178, 90);
-            this.VQ1Option4.TabIndex = 131;
-            this.VQ1Option4.Text = "Dare \"誰\"";
-            this.VQ1Option4.UseVisualStyleBackColor = true;
+            this.NQ1Option4.Location = new System.Drawing.Point(466, 370);
+            this.NQ1Option4.Name = "NQ1Option4";
+            this.NQ1Option4.Size = new System.Drawing.Size(178, 90);
+            this.NQ1Option4.TabIndex = 131;
+            this.NQ1Option4.Text = "Dare \"誰\"";
+            this.NQ1Option4.UseVisualStyleBackColor = true;
+            this.NQ1Option4.Click += new System.EventHandler(this.NQ1Option4_Click);
             // 
-            // VQ1Option3
+            // NQ1Option3
             // 
-            this.VQ1Option3.Location = new System.Drawing.Point(262, 412);
-            this.VQ1Option3.Name = "VQ1Option3";
-            this.VQ1Option3.Size = new System.Drawing.Size(178, 90);
-            this.VQ1Option3.TabIndex = 130;
-            this.VQ1Option3.Text = "Kanojo \"彼女\"";
-            this.VQ1Option3.UseVisualStyleBackColor = true;
+            this.NQ1Option3.Location = new System.Drawing.Point(258, 370);
+            this.NQ1Option3.Name = "NQ1Option3";
+            this.NQ1Option3.Size = new System.Drawing.Size(178, 90);
+            this.NQ1Option3.TabIndex = 130;
+            this.NQ1Option3.Text = "Kanojo \"彼女\"";
+            this.NQ1Option3.UseVisualStyleBackColor = true;
+            this.NQ1Option3.Click += new System.EventHandler(this.NQ1Option3_Click);
             // 
-            // VQ1Option2
+            // NQ1Option2
             // 
-            this.VQ1Option2.Location = new System.Drawing.Point(470, 305);
-            this.VQ1Option2.Name = "VQ1Option2";
-            this.VQ1Option2.Size = new System.Drawing.Size(178, 90);
-            this.VQ1Option2.TabIndex = 129;
-            this.VQ1Option2.Text = "Kawaru \"変える\"";
-            this.VQ1Option2.UseVisualStyleBackColor = true;
+            this.NQ1Option2.Location = new System.Drawing.Point(466, 263);
+            this.NQ1Option2.Name = "NQ1Option2";
+            this.NQ1Option2.Size = new System.Drawing.Size(178, 90);
+            this.NQ1Option2.TabIndex = 129;
+            this.NQ1Option2.Text = "Kawaru \"変える\"";
+            this.NQ1Option2.UseVisualStyleBackColor = true;
+            this.NQ1Option2.Click += new System.EventHandler(this.NQ1Option2_Click);
             // 
-            // VQ1Option1
+            // NQ1Option1
             // 
-            this.VQ1Option1.Location = new System.Drawing.Point(262, 305);
-            this.VQ1Option1.Name = "VQ1Option1";
-            this.VQ1Option1.Size = new System.Drawing.Size(178, 90);
-            this.VQ1Option1.TabIndex = 128;
-            this.VQ1Option1.Text = "Sensei \"先生\"";
-            this.VQ1Option1.UseVisualStyleBackColor = true;
-            this.VQ1Option1.Click += new System.EventHandler(this.VQ1Option1_Click);
+            this.NQ1Option1.Location = new System.Drawing.Point(258, 263);
+            this.NQ1Option1.Name = "NQ1Option1";
+            this.NQ1Option1.Size = new System.Drawing.Size(178, 90);
+            this.NQ1Option1.TabIndex = 128;
+            this.NQ1Option1.Text = "Sensei \"先生\"";
+            this.NQ1Option1.UseVisualStyleBackColor = true;
+            this.NQ1Option1.Click += new System.EventHandler(this.NQ1Option1_Click);
             // 
             // ExitBtn
             // 
-            this.ExitBtn.Location = new System.Drawing.Point(806, 537);
+            this.ExitBtn.Location = new System.Drawing.Point(797, 522);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(75, 36);
             this.ExitBtn.TabIndex = 127;
@@ -111,7 +114,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // MuteBtn
             // 
-            this.MuteBtn.Location = new System.Drawing.Point(690, 537);
+            this.MuteBtn.Location = new System.Drawing.Point(681, 522);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(68, 36);
             this.MuteBtn.TabIndex = 126;
@@ -120,7 +123,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NextBtn
             // 
-            this.NextBtn.Location = new System.Drawing.Point(560, 537);
+            this.NextBtn.Location = new System.Drawing.Point(551, 522);
             this.NextBtn.Name = "NextBtn";
             this.NextBtn.Size = new System.Drawing.Size(75, 36);
             this.NextBtn.TabIndex = 125;
@@ -130,7 +133,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // CancelBtn
             // 
-            this.CancelBtn.Location = new System.Drawing.Point(51, 537);
+            this.CancelBtn.Location = new System.Drawing.Point(42, 522);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(61, 36);
             this.CancelBtn.TabIndex = 124;
@@ -142,13 +145,13 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 586);
+            this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.NQ1);
             this.Controls.Add(this.NLvl1Q1Lbl);
-            this.Controls.Add(this.VQ1Option4);
-            this.Controls.Add(this.VQ1Option3);
-            this.Controls.Add(this.VQ1Option2);
-            this.Controls.Add(this.VQ1Option1);
+            this.Controls.Add(this.NQ1Option4);
+            this.Controls.Add(this.NQ1Option3);
+            this.Controls.Add(this.NQ1Option2);
+            this.Controls.Add(this.NQ1Option1);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
@@ -166,13 +169,13 @@ namespace Learn_Japanese_Assignment_2
 
         private System.Windows.Forms.Label NQ1;
         private System.Windows.Forms.Label NLvl1Q1Lbl;
-        private System.Windows.Forms.Button VQ1Option4;
-        private System.Windows.Forms.Button VQ1Option3;
-        private System.Windows.Forms.Button VQ1Option2;
-        private System.Windows.Forms.Button VQ1Option1;
+        private System.Windows.Forms.Button NQ1Option3;
+        private System.Windows.Forms.Button NQ1Option2;
+        private System.Windows.Forms.Button NQ1Option1;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.Button CancelBtn;
+        private System.Windows.Forms.Button NQ1Option4;
     }
 }

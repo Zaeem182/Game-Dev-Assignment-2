@@ -21,9 +21,20 @@ namespace Learn_Japanese_Assignment_2
 
         private void CancelBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Category start = new Category();
-            start.Show();
+            string message = "Are you sure you want to cancel?";
+            string title = "Cancel?";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                Category start = new Category();
+                start.Show();
+            }
+            else
+            {
+                // Closes the MessegeBox and allows user to continue with the quiz. 
+            }
         }
 
         private void ExitBtn_Click(object sender, EventArgs e)
@@ -33,53 +44,96 @@ namespace Learn_Japanese_Assignment_2
 
         private int Score()
         {
-            int i;
-            for (i = 0; i < 5; i++)
-            {
+            int counter = 0;
+
                 if (NounsLvl1Q1.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
 
                 if (NounsLvl1Q2.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
 
                 if (NounsLvl1Q3.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
                 if (NounsLvl1Q4.instance.correct == true)
                 {
-                    i++;
+                    counter++;
                 }
                 if (correct == true)
                 {
-                    i++;
-                    break;
+                    counter++;
                 }
-            }
-            return i;
-
+            return counter;
         }
 
-        private void NextBtn_Click(object sender, EventArgs e)
-        {
-            String title = "You Scored";
-            MessageBox.Show("" + Score() + " Out of 5", title);
-        }
 
-        private void VQ1Option2_Click(object sender, EventArgs e)
+        private void NQ1Option2_Click(object sender, EventArgs e)
         {
             correct = true;
 
-            VQ1Option2.BackColor = Color.Green;
+            NQ1Option2.BackColor = Color.Green;
 
-            VQ1Option1.Enabled = false;
-            VQ1Option2.Enabled = false;
-            VQ1Option3.Enabled = false;
-            VQ1Option4.Enabled = false;
+            NQ1Option1.Enabled = false;
+            NQ1Option2.Enabled = false;
+            NQ1Option3.Enabled = false;
+            NQ1Option4.Enabled = false;
+        }
+
+        private void SubmitBtn_Click(object sender, EventArgs e)
+        {
+            if (NQ1Option1.Enabled == true || NQ1Option2.Enabled == true || NQ1Option3.Enabled == true || NQ1Option4.Enabled == true)
+            {
+                string message = "Please select an answer.";
+                string title = "Did not Answer";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    // Closes Messege Box and allows user to answer the question again.
+                }
+            }
+            else
+            {
+                String title = "You Scored";
+                MessageBox.Show("" + Score() + " Out of 5", title);
+            }
+        }
+        private void NQ1Option1_Click(object sender, EventArgs e)
+        {
+            correct = false;
+            NQ1Option1.BackColor = Color.Red;
+
+            NQ1Option1.Enabled = false;
+            NQ1Option2.Enabled = false;
+            NQ1Option3.Enabled = false;
+            NQ1Option4.Enabled = false;
+        }
+
+        private void NQ1Option3_Click(object sender, EventArgs e)
+        {
+            correct = false;
+            NQ1Option3.BackColor = Color.Red;
+
+            NQ1Option1.Enabled = false;
+            NQ1Option2.Enabled = false;
+            NQ1Option3.Enabled = false;
+            NQ1Option4.Enabled = false;
+        }
+
+        private void NQ1Option4_Click(object sender, EventArgs e)
+        {
+            correct = false;
+            NQ1Option4.BackColor = Color.Red;
+
+            NQ1Option1.Enabled = false;
+            NQ1Option2.Enabled = false;
+            NQ1Option3.Enabled = false;
+            NQ1Option4.Enabled = false;
         }
     }
 }

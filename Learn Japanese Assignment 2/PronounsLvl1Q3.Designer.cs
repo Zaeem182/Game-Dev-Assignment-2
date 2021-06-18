@@ -69,6 +69,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option4.TabIndex = 41;
             this.PQ1Option4.Text = "kiru \"きる\"";
             this.PQ1Option4.UseVisualStyleBackColor = true;
+            this.PQ1Option4.Click += new System.EventHandler(this.PQ1Option4_Click);
             // 
             // PQ1Option3
             // 
@@ -88,6 +89,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option2.TabIndex = 39;
             this.PQ1Option2.Text = "Dare \"誰\"";
             this.PQ1Option2.UseVisualStyleBackColor = true;
+            this.PQ1Option2.Click += new System.EventHandler(this.PQ1Option2_Click);
             // 
             // PQ1Option1
             // 
@@ -97,6 +99,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option1.TabIndex = 38;
             this.PQ1Option1.Text = "Shuu \"週\"";
             this.PQ1Option1.UseVisualStyleBackColor = true;
+            this.PQ1Option1.Click += new System.EventHandler(this.PQ1Option1_Click);
             // 
             // ExitBtn
             // 

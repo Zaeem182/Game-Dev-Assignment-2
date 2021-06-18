@@ -125,6 +125,7 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl2Btn.Text = "Level 2";
             this.NLvl2Btn.UseVisualStyleBackColor = true;
             this.NLvl2Btn.Visible = false;
+            this.NLvl2Btn.Click += new System.EventHandler(this.NLvl2Btn_Click);
             // 
             // VLvl2Btn
             // 
@@ -152,7 +153,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // ExitBtn
             // 
-            this.ExitBtn.Location = new System.Drawing.Point(893, 572);
+            this.ExitBtn.Location = new System.Drawing.Point(888, 509);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(84, 39);
             this.ExitBtn.TabIndex = 9;
@@ -162,7 +163,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // MuteBtn
             // 
-            this.MuteBtn.Location = new System.Drawing.Point(815, 571);
+            this.MuteBtn.Location = new System.Drawing.Point(810, 508);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(53, 40);
             this.MuteBtn.TabIndex = 10;
@@ -171,7 +172,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // BackBtn
             // 
-            this.BackBtn.Location = new System.Drawing.Point(114, 572);
+            this.BackBtn.Location = new System.Drawing.Point(109, 509);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(70, 39);
             this.BackBtn.TabIndex = 11;
@@ -203,7 +204,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(998, 635);
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.CategorySubHeadingLbl);
             this.Controls.Add(this.CategoryHeadingLbl);
             this.Controls.Add(this.BackBtn);
@@ -218,7 +219,9 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.PronounCategoryBtn);
             this.Controls.Add(this.VerbCategoryBtn);
             this.Controls.Add(this.NounCategoryBtn);
+            this.MaximizeBox = false;
             this.Name = "Category";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

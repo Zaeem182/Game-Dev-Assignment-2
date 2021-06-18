@@ -29,14 +29,16 @@ namespace Learn_Japanese_Assignment_2
 
         private void NextBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            PronounsLvl1Q1 start = new PronounsLvl1Q1();
-            start.Show();
-        }
-
-        private void PronounsLvl1Learn_Load(object sender, EventArgs e)
-        {
-
+            string message = "Are you ready to start the quiz?";
+            string title = "Start?";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                PronounsLvl1Q1 start = new PronounsLvl1Q1();
+                start.Show();
+            }
         }
     }
 }

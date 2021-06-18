@@ -17,8 +17,6 @@ namespace Learn_Japanese_Assignment_2
             InitializeComponent();
         }
 
-
-
         private void Category_Load(object sender, EventArgs e)
         {
             
@@ -97,6 +95,11 @@ namespace Learn_Japanese_Assignment_2
             this.Hide();
             VerbsLvl1Learn start = new VerbsLvl1Learn();
             start.Show();
+        }
+
+        private void NLvl2Btn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

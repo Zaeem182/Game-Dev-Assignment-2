@@ -80,6 +80,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option3.TabIndex = 50;
             this.PQ1Option3.Text = "Iku \"行く\"\t";
             this.PQ1Option3.UseVisualStyleBackColor = true;
+            this.PQ1Option3.Click += new System.EventHandler(this.PQ1Option3_Click);
             // 
             // PQ1Option2
             // 
@@ -89,6 +90,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option2.TabIndex = 49;
             this.PQ1Option2.Text = "Nihon \"日本\"";
             this.PQ1Option2.UseVisualStyleBackColor = true;
+            this.PQ1Option2.Click += new System.EventHandler(this.PQ1Option2_Click);
             // 
             // PQ1Option1
             // 
@@ -98,6 +100,7 @@ namespace Learn_Japanese_Assignment_2
             this.PQ1Option1.TabIndex = 48;
             this.PQ1Option1.Text = "Watashi \"私\"";
             this.PQ1Option1.UseVisualStyleBackColor = true;
+            this.PQ1Option1.Click += new System.EventHandler(this.PQ1Option1_Click);
             // 
             // ExitBtn
             // 

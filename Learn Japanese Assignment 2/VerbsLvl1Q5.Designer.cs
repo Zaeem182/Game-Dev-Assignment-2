@@ -37,7 +37,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option1 = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.MuteBtn = new System.Windows.Forms.Button();
-            this.NextBtn = new System.Windows.Forms.Button();
+            this.SubmitBtn = new System.Windows.Forms.Button();
             this.CancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -70,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option4.TabIndex = 101;
             this.VQ1Option4.Text = "Kawaru \"変える\"";
             this.VQ1Option4.UseVisualStyleBackColor = true;
+            this.VQ1Option4.Click += new System.EventHandler(this.VQ1Option4_Click);
             // 
             // VQ1Option3
             // 
@@ -117,14 +118,15 @@ namespace Learn_Japanese_Assignment_2
             this.MuteBtn.Text = "Mute";
             this.MuteBtn.UseVisualStyleBackColor = true;
             // 
-            // NextBtn
+            // SubmitBtn
             // 
-            this.NextBtn.Location = new System.Drawing.Point(520, 500);
-            this.NextBtn.Name = "NextBtn";
-            this.NextBtn.Size = new System.Drawing.Size(75, 36);
-            this.NextBtn.TabIndex = 95;
-            this.NextBtn.Text = "Next>";
-            this.NextBtn.UseVisualStyleBackColor = true;
+            this.SubmitBtn.Location = new System.Drawing.Point(520, 500);
+            this.SubmitBtn.Name = "SubmitBtn";
+            this.SubmitBtn.Size = new System.Drawing.Size(75, 36);
+            this.SubmitBtn.TabIndex = 95;
+            this.SubmitBtn.Text = "Submit>";
+            this.SubmitBtn.UseVisualStyleBackColor = true;
+            this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
             // 
             // CancelBtn
             // 
@@ -149,7 +151,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.VQ1Option1);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.MuteBtn);
-            this.Controls.Add(this.NextBtn);
+            this.Controls.Add(this.SubmitBtn);
             this.Controls.Add(this.CancelBtn);
             this.MaximizeBox = false;
             this.Name = "VerbsLvl1Q5";
@@ -170,7 +172,7 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button VQ1Option1;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Button MuteBtn;
-        private System.Windows.Forms.Button NextBtn;
+        private System.Windows.Forms.Button SubmitBtn;
         private System.Windows.Forms.Button CancelBtn;
     }
 }

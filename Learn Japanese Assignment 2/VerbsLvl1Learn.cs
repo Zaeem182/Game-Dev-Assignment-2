@@ -29,9 +29,16 @@ namespace Learn_Japanese_Assignment_2
 
         private void NextBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            VerbsLvl1Q1 start = new VerbsLvl1Q1();
-            start.Show();
+            string message = "Are you ready to start the quiz?";
+            string title = "Start?";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                this.Hide();
+                VerbsLvl1Q1 start = new VerbsLvl1Q1();
+                start.Show();
+            }
         }
     }
 }

@@ -70,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option4.TabIndex = 81;
             this.VQ1Option4.Text = "Okiru\"おきる\"";
             this.VQ1Option4.UseVisualStyleBackColor = true;
+            this.VQ1Option4.Click += new System.EventHandler(this.VQ1Option4_Click);
             // 
             // VQ1Option3
             // 
@@ -79,6 +80,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option3.TabIndex = 80;
             this.VQ1Option3.Text = "Desu \"です\"";
             this.VQ1Option3.UseVisualStyleBackColor = true;
+            this.VQ1Option3.Click += new System.EventHandler(this.VQ1Option3_Click);
             // 
             // VQ1Option2
             // 
@@ -88,6 +90,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option2.TabIndex = 79;
             this.VQ1Option2.Text = "Kawaru \"変える\"";
             this.VQ1Option2.UseVisualStyleBackColor = true;
+            this.VQ1Option2.Click += new System.EventHandler(this.VQ1Option2_Click);
             // 
             // VQ1Option1
             // 
@@ -97,6 +100,7 @@ namespace Learn_Japanese_Assignment_2
             this.VQ1Option1.TabIndex = 78;
             this.VQ1Option1.Text = "Naru \"なる\"";
             this.VQ1Option1.UseVisualStyleBackColor = true;
+            this.VQ1Option1.Click += new System.EventHandler(this.VQ1Option1_Click);
             // 
             // ExitBtn
             // 
@@ -156,7 +160,6 @@ namespace Learn_Japanese_Assignment_2
             this.Name = "VerbsLvl1Q3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VerbsLvl1Q3";
-            this.Load += new System.EventHandler(this.VerbsLvl1Q3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
