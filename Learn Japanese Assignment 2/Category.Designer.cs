@@ -35,9 +35,6 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl1Btn = new System.Windows.Forms.Button();
             this.VLvl1Btn = new System.Windows.Forms.Button();
             this.PLvl1Btn = new System.Windows.Forms.Button();
-            this.NLvl2Btn = new System.Windows.Forms.Button();
-            this.VLvl2Btn = new System.Windows.Forms.Button();
-            this.PLvl2Btn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.MuteBtn = new System.Windows.Forms.Button();
             this.BackBtn = new System.Windows.Forms.Button();
@@ -116,27 +113,6 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl1Btn.UseVisualStyleBackColor = true;
             this.PLvl1Btn.Visible = false;
             this.PLvl1Btn.Click += new System.EventHandler(this.PLvl1Btn_Click);
-            // 
-            // NLvl2Btn
-            // 
-            this.NLvl2Btn.Location = new System.Drawing.Point(0, 0);
-            this.NLvl2Btn.Name = "NLvl2Btn";
-            this.NLvl2Btn.Size = new System.Drawing.Size(75, 23);
-            this.NLvl2Btn.TabIndex = 16;
-            // 
-            // VLvl2Btn
-            // 
-            this.VLvl2Btn.Location = new System.Drawing.Point(0, 0);
-            this.VLvl2Btn.Name = "VLvl2Btn";
-            this.VLvl2Btn.Size = new System.Drawing.Size(75, 23);
-            this.VLvl2Btn.TabIndex = 15;
-            // 
-            // PLvl2Btn
-            // 
-            this.PLvl2Btn.Location = new System.Drawing.Point(0, 0);
-            this.PLvl2Btn.Name = "PLvl2Btn";
-            this.PLvl2Btn.Size = new System.Drawing.Size(75, 23);
-            this.PLvl2Btn.TabIndex = 14;
             // 
             // ExitBtn
             // 
@@ -236,9 +212,6 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.ExitBtn);
-            this.Controls.Add(this.PLvl2Btn);
-            this.Controls.Add(this.VLvl2Btn);
-            this.Controls.Add(this.NLvl2Btn);
             this.Controls.Add(this.PLvl1Btn);
             this.Controls.Add(this.VLvl1Btn);
             this.Controls.Add(this.NLvl1Btn);
@@ -262,9 +235,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button NLvl1Btn;
         private System.Windows.Forms.Button VLvl1Btn;
         private System.Windows.Forms.Button PLvl1Btn;
-        private System.Windows.Forms.Button NLvl2Btn;
-        private System.Windows.Forms.Button VLvl2Btn;
-        private System.Windows.Forms.Button PLvl2Btn;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Label CategoryHeadingLbl;
