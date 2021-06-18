@@ -116,7 +116,6 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NLvl2Btn
             // 
-            this.NLvl2Btn.Enabled = false;
             this.NLvl2Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NLvl2Btn.Location = new System.Drawing.Point(646, 166);
             this.NLvl2Btn.Name = "NLvl2Btn";
@@ -125,11 +124,9 @@ namespace Learn_Japanese_Assignment_2
             this.NLvl2Btn.Text = "Level 2";
             this.NLvl2Btn.UseVisualStyleBackColor = true;
             this.NLvl2Btn.Visible = false;
-            this.NLvl2Btn.Click += new System.EventHandler(this.NLvl2Btn_Click);
             // 
             // VLvl2Btn
             // 
-            this.VLvl2Btn.Enabled = false;
             this.VLvl2Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VLvl2Btn.Location = new System.Drawing.Point(646, 280);
             this.VLvl2Btn.Name = "VLvl2Btn";
@@ -141,7 +138,6 @@ namespace Learn_Japanese_Assignment_2
             // 
             // PLvl2Btn
             // 
-            this.PLvl2Btn.Enabled = false;
             this.PLvl2Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PLvl2Btn.Location = new System.Drawing.Point(646, 389);
             this.PLvl2Btn.Name = "PLvl2Btn";
