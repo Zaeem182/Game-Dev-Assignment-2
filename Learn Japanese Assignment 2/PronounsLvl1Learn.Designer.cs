@@ -37,6 +37,10 @@ namespace Learn_Japanese_Assignment_2
             this.PLvl1Lbl = new System.Windows.Forms.Label();
             this.PQ1Study1 = new System.Windows.Forms.Label();
             this.PronounLvl1 = new System.Windows.Forms.Label();
+            this.PQ1Study2 = new System.Windows.Forms.Label();
+            this.PQ1Study3 = new System.Windows.Forms.Label();
+            this.PQ1Study4 = new System.Windows.Forms.Label();
+            this.PQ1Study5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // NextBtn
@@ -102,7 +106,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.PQ1Study1.AutoSize = true;
             this.PQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.PQ1Study1.Location = new System.Drawing.Point(29, 198);
+            this.PQ1Study1.Location = new System.Drawing.Point(12, 195);
             this.PQ1Study1.Name = "PQ1Study1";
             this.PQ1Study1.Size = new System.Drawing.Size(170, 30);
             this.PQ1Study1.TabIndex = 18;
@@ -111,18 +115,62 @@ namespace Learn_Japanese_Assignment_2
             // PronounLvl1
             // 
             this.PronounLvl1.AutoSize = true;
-            this.PronounLvl1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.PronounLvl1.Location = new System.Drawing.Point(29, 145);
+            this.PronounLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PronounLvl1.Location = new System.Drawing.Point(12, 142);
             this.PronounLvl1.Name = "PronounLvl1";
-            this.PronounLvl1.Size = new System.Drawing.Size(199, 30);
+            this.PronounLvl1.Size = new System.Drawing.Size(238, 32);
             this.PronounLvl1.TabIndex = 19;
-            this.PronounLvl1.Text = "English = Japanese";
+            this.PronounLvl1.Text = "English to Japanese";
+            // 
+            // PQ1Study2
+            // 
+            this.PQ1Study2.AutoSize = true;
+            this.PQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.PQ1Study2.Location = new System.Drawing.Point(12, 244);
+            this.PQ1Study2.Name = "PQ1Study2";
+            this.PQ1Study2.Size = new System.Drawing.Size(237, 30);
+            this.PQ1Study2.TabIndex = 31;
+            this.PQ1Study2.Text = "We = Wareware \"我々\"";
+            // 
+            // PQ1Study3
+            // 
+            this.PQ1Study3.AutoSize = true;
+            this.PQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.PQ1Study3.Location = new System.Drawing.Point(12, 297);
+            this.PQ1Study3.Name = "PQ1Study3";
+            this.PQ1Study3.Size = new System.Drawing.Size(208, 30);
+            this.PQ1Study3.TabIndex = 30;
+            this.PQ1Study3.Text = "Kanojo = She \"彼女\"";
+            // 
+            // PQ1Study4
+            // 
+            this.PQ1Study4.AutoSize = true;
+            this.PQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.PQ1Study4.Location = new System.Drawing.Point(12, 347);
+            this.PQ1Study4.Name = "PQ1Study4";
+            this.PQ1Study4.Size = new System.Drawing.Size(201, 30);
+            this.PQ1Study4.TabIndex = 29;
+            this.PQ1Study4.Text = "You = Anata \"貴方\"";
+            // 
+            // PQ1Study5
+            // 
+            this.PQ1Study5.AutoSize = true;
+            this.PQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.PQ1Study5.Location = new System.Drawing.Point(12, 400);
+            this.PQ1Study5.Name = "PQ1Study5";
+            this.PQ1Study5.Size = new System.Drawing.Size(156, 30);
+            this.PQ1Study5.TabIndex = 28;
+            this.PQ1Study5.Text = "He = Kare \"彼\"";
             // 
             // PronounsLvl1Learn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.PQ1Study2);
+            this.Controls.Add(this.PQ1Study3);
+            this.Controls.Add(this.PQ1Study4);
+            this.Controls.Add(this.PQ1Study5);
             this.Controls.Add(this.PronounLvl1);
             this.Controls.Add(this.PQ1Study1);
             this.Controls.Add(this.NextBtn);
@@ -150,5 +198,9 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label PLvl1Lbl;
         private System.Windows.Forms.Label PQ1Study1;
         private System.Windows.Forms.Label PronounLvl1;
+        private System.Windows.Forms.Label PQ1Study2;
+        private System.Windows.Forms.Label PQ1Study3;
+        private System.Windows.Forms.Label PQ1Study4;
+        private System.Windows.Forms.Label PQ1Study5;
     }
 }
