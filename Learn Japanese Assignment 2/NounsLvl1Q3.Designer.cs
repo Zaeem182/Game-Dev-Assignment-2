@@ -104,7 +104,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // ExitBtn
             // 
-            this.ExitBtn.Location = new System.Drawing.Point(797, 522);
+            this.ExitBtn.Location = new System.Drawing.Point(797, 513);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(75, 36);
             this.ExitBtn.TabIndex = 127;
@@ -114,7 +114,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // MuteBtn
             // 
-            this.MuteBtn.Location = new System.Drawing.Point(681, 522);
+            this.MuteBtn.Location = new System.Drawing.Point(681, 513);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(68, 36);
             this.MuteBtn.TabIndex = 126;
@@ -123,7 +123,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NextBtn
             // 
-            this.NextBtn.Location = new System.Drawing.Point(551, 522);
+            this.NextBtn.Location = new System.Drawing.Point(551, 513);
             this.NextBtn.Name = "NextBtn";
             this.NextBtn.Size = new System.Drawing.Size(75, 36);
             this.NextBtn.TabIndex = 125;
@@ -133,7 +133,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // CancelBtn
             // 
-            this.CancelBtn.Location = new System.Drawing.Point(42, 522);
+            this.CancelBtn.Location = new System.Drawing.Point(42, 513);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(61, 36);
             this.CancelBtn.TabIndex = 124;

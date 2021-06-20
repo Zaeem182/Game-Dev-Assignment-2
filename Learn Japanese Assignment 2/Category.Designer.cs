@@ -209,7 +209,7 @@ namespace Learn_Japanese_Assignment_2
             this.BonusBtn.TabIndex = 20;
             this.BonusBtn.Text = "Bonus Level";
             this.BonusBtn.UseVisualStyleBackColor = true;
-            this.BonusBtn.Visible = false;
+            this.BonusBtn.Click += new System.EventHandler(this.BonusBtn_Click);
             // 
             // Category
             // 

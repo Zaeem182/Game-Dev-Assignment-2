@@ -106,61 +106,67 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.VQ1Study2.AutoSize = true;
             this.VQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.VQ1Study2.Location = new System.Drawing.Point(12, 218);
+            this.VQ1Study2.Location = new System.Drawing.Point(300, 237);
             this.VQ1Study2.Name = "VQ1Study2";
             this.VQ1Study2.Size = new System.Drawing.Size(227, 30);
             this.VQ1Study2.TabIndex = 37;
             this.VQ1Study2.Text = "Eat = Taberu \"たべる\"";
+            this.VQ1Study2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VQ1Study3
             // 
             this.VQ1Study3.AutoSize = true;
             this.VQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.VQ1Study3.Location = new System.Drawing.Point(12, 271);
+            this.VQ1Study3.Location = new System.Drawing.Point(300, 290);
             this.VQ1Study3.Name = "VQ1Study3";
             this.VQ1Study3.Size = new System.Drawing.Size(295, 30);
             this.VQ1Study3.TabIndex = 36;
             this.VQ1Study3.Text = "Begin = Hajimaru \"はじまる\"";
+            this.VQ1Study3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VQ1Study4
             // 
             this.VQ1Study4.AutoSize = true;
             this.VQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.VQ1Study4.Location = new System.Drawing.Point(12, 321);
+            this.VQ1Study4.Location = new System.Drawing.Point(300, 340);
             this.VQ1Study4.Name = "VQ1Study4";
             this.VQ1Study4.Size = new System.Drawing.Size(246, 30);
             this.VQ1Study4.TabIndex = 35;
             this.VQ1Study4.Text = "Get up = Okiru \"おきる\"";
+            this.VQ1Study4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VQ1Study5
             // 
             this.VQ1Study5.AutoSize = true;
             this.VQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.VQ1Study5.Location = new System.Drawing.Point(12, 374);
+            this.VQ1Study5.Location = new System.Drawing.Point(300, 393);
             this.VQ1Study5.Name = "VQ1Study5";
             this.VQ1Study5.Size = new System.Drawing.Size(293, 30);
             this.VQ1Study5.TabIndex = 34;
             this.VQ1Study5.Text = "Believe = Shinjiru \"しんじる\"";
+            this.VQ1Study5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VerbsLvl1
             // 
             this.VerbsLvl1.AutoSize = true;
             this.VerbsLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.VerbsLvl1.Location = new System.Drawing.Point(12, 116);
+            this.VerbsLvl1.Location = new System.Drawing.Point(300, 135);
             this.VerbsLvl1.Name = "VerbsLvl1";
             this.VerbsLvl1.Size = new System.Drawing.Size(238, 32);
             this.VerbsLvl1.TabIndex = 33;
             this.VerbsLvl1.Text = "English to Japanese";
+            this.VerbsLvl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VQ1Study1
             // 
             this.VQ1Study1.AutoSize = true;
             this.VQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.VQ1Study1.Location = new System.Drawing.Point(12, 169);
+            this.VQ1Study1.Location = new System.Drawing.Point(300, 188);
             this.VQ1Study1.Name = "VQ1Study1";
             this.VQ1Study1.Size = new System.Drawing.Size(275, 30);
             this.VQ1Study1.TabIndex = 32;
             this.VQ1Study1.Text = "Change = Kawaru \"変える\"";
+            this.VQ1Study1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // VerbsLvl1Learn
             // 

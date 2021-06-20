@@ -106,61 +106,67 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.NounLvl1.AutoSize = true;
             this.NounLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.NounLvl1.Location = new System.Drawing.Point(12, 146);
+            this.NounLvl1.Location = new System.Drawing.Point(345, 172);
             this.NounLvl1.Name = "NounLvl1";
             this.NounLvl1.Size = new System.Drawing.Size(238, 32);
             this.NounLvl1.TabIndex = 21;
             this.NounLvl1.Text = "English to Japanese";
+            this.NounLvl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NQ1Study1
             // 
             this.NQ1Study1.AutoSize = true;
             this.NQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NQ1Study1.Location = new System.Drawing.Point(12, 199);
+            this.NQ1Study1.Location = new System.Drawing.Point(345, 225);
             this.NQ1Study1.Name = "NQ1Study1";
             this.NQ1Study1.Size = new System.Drawing.Size(243, 30);
             this.NQ1Study1.TabIndex = 20;
             this.NQ1Study1.Text = "Teacher = Sensei \"先生\"";
+            this.NQ1Study1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NQ1Study4
             // 
             this.NQ1Study4.AutoSize = true;
             this.NQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NQ1Study4.Location = new System.Drawing.Point(12, 349);
+            this.NQ1Study4.Location = new System.Drawing.Point(345, 375);
             this.NQ1Study4.Name = "NQ1Study4";
             this.NQ1Study4.Size = new System.Drawing.Size(190, 30);
             this.NQ1Study4.TabIndex = 23;
             this.NQ1Study4.Text = "Water = Mizu \"水\"";
+            this.NQ1Study4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NQ1Study5
             // 
             this.NQ1Study5.AutoSize = true;
             this.NQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NQ1Study5.Location = new System.Drawing.Point(12, 402);
+            this.NQ1Study5.Location = new System.Drawing.Point(345, 428);
             this.NQ1Study5.Name = "NQ1Study5";
             this.NQ1Study5.Size = new System.Drawing.Size(222, 30);
             this.NQ1Study5.TabIndex = 22;
             this.NQ1Study5.Text = "Japan = Nihon \"日本\"";
+            this.NQ1Study5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NQ1Study2
             // 
             this.NQ1Study2.AutoSize = true;
             this.NQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NQ1Study2.Location = new System.Drawing.Point(12, 246);
+            this.NQ1Study2.Location = new System.Drawing.Point(345, 272);
             this.NQ1Study2.Name = "NQ1Study2";
             this.NQ1Study2.Size = new System.Drawing.Size(243, 30);
             this.NQ1Study2.TabIndex = 25;
             this.NQ1Study2.Text = "School = Gakkou \"学校\"";
+            this.NQ1Study2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NQ1Study3
             // 
             this.NQ1Study3.AutoSize = true;
             this.NQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.NQ1Study3.Location = new System.Drawing.Point(12, 299);
+            this.NQ1Study3.Location = new System.Drawing.Point(345, 325);
             this.NQ1Study3.Name = "NQ1Study3";
             this.NQ1Study3.Size = new System.Drawing.Size(236, 30);
             this.NQ1Study3.TabIndex = 24;
             this.NQ1Study3.Text = "Name = Namae \"名前\"";
+            this.NQ1Study3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NounsLvl1Learn
             // 
