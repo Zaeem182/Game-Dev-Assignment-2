@@ -24,6 +24,8 @@ namespace Learn_Japanese_Assignment_2
 
         private void NounCategoryBtn_Click(object sender, EventArgs e)
         {
+            NounCategoryBtn.BackColor = Color.FromArgb(224, 58, 36);
+
             //Enables Noun Level 1 and 2 Buttons
             NLvl1Btn.Visible = Enabled;
             NLvl2Btn1.Visible = Enabled;
@@ -34,10 +36,15 @@ namespace Learn_Japanese_Assignment_2
 
             PLvl1Btn.Visible = false;
             PLvl2Btn1.Visible = false;
+
+            VerbCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
+            PronounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
         }
 
         private void VerbCategoryBtn_Click(object sender, EventArgs e)
         {
+            VerbCategoryBtn.BackColor = Color.FromArgb(224, 58, 36);
+
             //Enables Verb Level 1 and 2 Buttons
             VLvl1Btn.Visible = Enabled;
             VLvl2Btn1.Visible = Enabled;
@@ -48,10 +55,15 @@ namespace Learn_Japanese_Assignment_2
 
             PLvl1Btn.Visible = false;
             PLvl2Btn1.Visible = false;
+
+            NounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
+            PronounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
         }
 
         private void PronounCategoryBtn_Click(object sender, EventArgs e)
         {
+            PronounCategoryBtn.BackColor = Color.FromArgb(224, 58, 36); 
+
             //Enables Pronoun Level 1 and 2 Buttons
             PLvl1Btn.Visible = Enabled;
             PLvl2Btn1.Visible = Enabled;
@@ -62,6 +74,9 @@ namespace Learn_Japanese_Assignment_2
 
             VLvl1Btn.Visible = false;
             VLvl2Btn1.Visible = false;
+
+            NounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
+            VerbCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
         }
 
         private void ExitBtn_Click(object sender, EventArgs e)

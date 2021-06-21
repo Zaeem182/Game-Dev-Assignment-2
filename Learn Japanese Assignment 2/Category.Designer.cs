@@ -48,35 +48,38 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NounCategoryBtn
             // 
+            this.NounCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NounCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NounCategoryBtn.Location = new System.Drawing.Point(114, 155);
             this.NounCategoryBtn.Name = "NounCategoryBtn";
             this.NounCategoryBtn.Size = new System.Drawing.Size(199, 80);
             this.NounCategoryBtn.TabIndex = 0;
             this.NounCategoryBtn.Text = "Nouns";
-            this.NounCategoryBtn.UseVisualStyleBackColor = true;
+            this.NounCategoryBtn.UseVisualStyleBackColor = false;
             this.NounCategoryBtn.Click += new System.EventHandler(this.NounCategoryBtn_Click);
             // 
             // VerbCategoryBtn
             // 
+            this.VerbCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VerbCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VerbCategoryBtn.Location = new System.Drawing.Point(114, 270);
             this.VerbCategoryBtn.Name = "VerbCategoryBtn";
             this.VerbCategoryBtn.Size = new System.Drawing.Size(199, 80);
             this.VerbCategoryBtn.TabIndex = 1;
             this.VerbCategoryBtn.Text = "Verbs";
-            this.VerbCategoryBtn.UseVisualStyleBackColor = true;
+            this.VerbCategoryBtn.UseVisualStyleBackColor = false;
             this.VerbCategoryBtn.Click += new System.EventHandler(this.VerbCategoryBtn_Click);
             // 
             // PronounCategoryBtn
             // 
+            this.PronounCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PronounCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PronounCategoryBtn.Location = new System.Drawing.Point(114, 377);
             this.PronounCategoryBtn.Name = "PronounCategoryBtn";
             this.PronounCategoryBtn.Size = new System.Drawing.Size(199, 80);
             this.PronounCategoryBtn.TabIndex = 2;
             this.PronounCategoryBtn.Text = "Pronouns";
-            this.PronounCategoryBtn.UseVisualStyleBackColor = true;
+            this.PronounCategoryBtn.UseVisualStyleBackColor = false;
             this.PronounCategoryBtn.Click += new System.EventHandler(this.PronounCategoryBtn_Click);
             // 
             // NLvl1Btn
@@ -215,6 +218,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.BonusBtn);
             this.Controls.Add(this.PLvl2Btn1);
