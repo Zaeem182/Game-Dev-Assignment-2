@@ -24,7 +24,7 @@ namespace Learn_Japanese_Assignment_2
 
         private void NounCategoryBtn_Click(object sender, EventArgs e)
         {
-            NounCategoryBtn.BackColor = Color.FromArgb(224, 58, 36);
+            NounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
 
             //Enables Noun Level 1 and 2 Buttons
             NLvl1Btn.Visible = Enabled;
@@ -37,13 +37,13 @@ namespace Learn_Japanese_Assignment_2
             PLvl1Btn.Visible = false;
             PLvl2Btn1.Visible = false;
 
-            VerbCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
-            PronounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
+            VerbCategoryBtn.BackColor = Color.FromArgb(102,178,255);
+            PronounCategoryBtn.BackColor = Color.FromArgb(102, 178, 255);
         }
 
         private void VerbCategoryBtn_Click(object sender, EventArgs e)
         {
-            VerbCategoryBtn.BackColor = Color.FromArgb(224, 58, 36);
+            VerbCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
 
             //Enables Verb Level 1 and 2 Buttons
             VLvl1Btn.Visible = Enabled;
@@ -56,13 +56,13 @@ namespace Learn_Japanese_Assignment_2
             PLvl1Btn.Visible = false;
             PLvl2Btn1.Visible = false;
 
-            NounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
-            PronounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
+            NounCategoryBtn.BackColor = Color.FromArgb(102, 178, 255);
+            PronounCategoryBtn.BackColor = Color.FromArgb(102, 178, 255);
         }
 
         private void PronounCategoryBtn_Click(object sender, EventArgs e)
         {
-            PronounCategoryBtn.BackColor = Color.FromArgb(224, 58, 36); 
+            PronounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146); 
 
             //Enables Pronoun Level 1 and 2 Buttons
             PLvl1Btn.Visible = Enabled;
@@ -75,8 +75,8 @@ namespace Learn_Japanese_Assignment_2
             VLvl1Btn.Visible = false;
             VLvl2Btn1.Visible = false;
 
-            NounCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
-            VerbCategoryBtn.BackColor = Color.FromArgb(0, 159, 146);
+            NounCategoryBtn.BackColor = Color.FromArgb(102, 178, 255);
+            VerbCategoryBtn.BackColor = Color.FromArgb(102, 178, 255);
         }
 
         private void ExitBtn_Click(object sender, EventArgs e)
@@ -92,21 +92,24 @@ namespace Learn_Japanese_Assignment_2
         }
 
         private void PLvl1Btn_Click(object sender, EventArgs e)
-        {
+        { 
             this.Hide();
             PronounsLvl1Learn start = new PronounsLvl1Learn();
             start.Show();
+
         }
 
         private void NLvl1Btn_Click(object sender, EventArgs e)
         {
-                this.Hide();
+                NLvl1Btn.BackColor = Color.FromArgb(0, 159, 146);
+            this.Hide();
                 NounsLvl1Learn start = new NounsLvl1Learn();
                 start.Show();
         }
 
         private void VLvl1Btn_Click(object sender, EventArgs e)
         {
+            VLvl1Btn.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
             VerbsLvl1Learn start = new VerbsLvl1Learn();
             start.Show();
@@ -114,6 +117,7 @@ namespace Learn_Japanese_Assignment_2
 
         private void NLvl2Btn1_Click(object sender, EventArgs e)
         {
+            NLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
            NounsLvl2Q1 start = new NounsLvl2Q1();
             start.Show();
@@ -121,6 +125,7 @@ namespace Learn_Japanese_Assignment_2
 
         private void VLvl2Btn1_Click(object sender, EventArgs e)
         {
+            VLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
              VerbsLvl2Q1 start = new VerbsLvl2Q1();
             start.Show();
@@ -128,6 +133,7 @@ namespace Learn_Japanese_Assignment_2
 
         private void PLvl2Btn1_Click(object sender, EventArgs e)
         {
+            PLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
             PronounsLvl2Q1 start = new PronounsLvl2Q1();
             start.Show();
