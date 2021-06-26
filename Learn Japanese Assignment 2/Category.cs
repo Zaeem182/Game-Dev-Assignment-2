@@ -101,15 +101,13 @@ namespace Learn_Japanese_Assignment_2
 
         private void NLvl1Btn_Click(object sender, EventArgs e)
         {
-                NLvl1Btn.BackColor = Color.FromArgb(0, 159, 146);
-            this.Hide();
-                NounsLvl1Learn start = new NounsLvl1Learn();
-                start.Show();
+           this.Hide();
+            NounsLvl1Learn start = new NounsLvl1Learn();
+           start.Show();
         }
 
         private void VLvl1Btn_Click(object sender, EventArgs e)
         {
-            VLvl1Btn.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
             VerbsLvl1Learn start = new VerbsLvl1Learn();
             start.Show();
@@ -117,7 +115,6 @@ namespace Learn_Japanese_Assignment_2
 
         private void NLvl2Btn1_Click(object sender, EventArgs e)
         {
-            NLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
            NounsLvl2Q1 start = new NounsLvl2Q1();
             start.Show();
@@ -125,7 +122,6 @@ namespace Learn_Japanese_Assignment_2
 
         private void VLvl2Btn1_Click(object sender, EventArgs e)
         {
-            VLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
              VerbsLvl2Q1 start = new VerbsLvl2Q1();
             start.Show();
@@ -133,7 +129,6 @@ namespace Learn_Japanese_Assignment_2
 
         private void PLvl2Btn1_Click(object sender, EventArgs e)
         {
-            PLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
             PronounsLvl2Q1 start = new PronounsLvl2Q1();
             start.Show();

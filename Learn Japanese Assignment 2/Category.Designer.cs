@@ -173,7 +173,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NLvl2Btn1
             // 
-            this.NLvl2Btn1.BackColor = System.Drawing.Color.Blue;
+            this.NLvl2Btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NLvl2Btn1.Location = new System.Drawing.Point(655, 157);
             this.NLvl2Btn1.Name = "NLvl2Btn1";
@@ -186,7 +186,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // VLvl2Btn1
             // 
-            this.VLvl2Btn1.BackColor = System.Drawing.Color.Blue;
+            this.VLvl2Btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VLvl2Btn1.Location = new System.Drawing.Point(655, 270);
             this.VLvl2Btn1.Name = "VLvl2Btn1";
@@ -199,7 +199,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // PLvl2Btn1
             // 
-            this.PLvl2Btn1.BackColor = System.Drawing.Color.Blue;
+            this.PLvl2Btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PLvl2Btn1.Location = new System.Drawing.Point(655, 377);
             this.PLvl2Btn1.Name = "PLvl2Btn1";
