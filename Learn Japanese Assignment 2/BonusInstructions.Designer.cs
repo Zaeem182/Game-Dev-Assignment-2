@@ -84,10 +84,12 @@ namespace Learn_Japanese_Assignment_2
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(12, 116);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(820, 240);
+            this.label1.Size = new System.Drawing.Size(822, 242);
             this.label1.TabIndex = 161;
             this.label1.Text = resources.GetString("label1.Text");
             // 

@@ -44,6 +44,7 @@ namespace Learn_Japanese_Assignment_2
             // VQ1
             // 
             this.VQ1.AutoSize = true;
+            this.VQ1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VQ1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.VQ1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.VQ1.Location = new System.Drawing.Point(407, 150);

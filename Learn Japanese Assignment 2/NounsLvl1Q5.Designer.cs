@@ -44,6 +44,7 @@ namespace Learn_Japanese_Assignment_2
             // NQ1
             // 
             this.NQ1.AutoSize = true;
+            this.NQ1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NQ1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NQ1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.NQ1.Location = new System.Drawing.Point(396, 150);
