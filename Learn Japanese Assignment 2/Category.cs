@@ -119,7 +119,7 @@ namespace Learn_Japanese_Assignment_2
         {
             NLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
-           NounsLvl2Q1 start = new NounsLvl2Q1();
+           NounsLvl2Learn start = new NounsLvl2Learn();
             start.Show();
         }
 
@@ -127,7 +127,7 @@ namespace Learn_Japanese_Assignment_2
         {
             VLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
-             VerbsLvl2Q1 start = new VerbsLvl2Q1();
+             VerbsLvl2Learn start = new VerbsLvl2Learn();
             start.Show();
         }
 
@@ -135,7 +135,7 @@ namespace Learn_Japanese_Assignment_2
         {
             PLvl2Btn1.BackColor = Color.FromArgb(0, 159, 146);
             this.Hide();
-            PronounsLvl2Q1 start = new PronounsLvl2Q1();
+            PronounsLvl2Learn start = new PronounsLvl2Learn();
             start.Show();
         }
 
