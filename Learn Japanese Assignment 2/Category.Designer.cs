@@ -29,6 +29,7 @@ namespace Learn_Japanese_Assignment_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Category));
             this.NounCategoryBtn = new System.Windows.Forms.Button();
             this.VerbCategoryBtn = new System.Windows.Forms.Button();
             this.PronounCategoryBtn = new System.Windows.Forms.Button();
@@ -48,7 +49,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NounCategoryBtn
             // 
-            this.NounCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.NounCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.NounCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NounCategoryBtn.Location = new System.Drawing.Point(114, 155);
             this.NounCategoryBtn.Name = "NounCategoryBtn";
@@ -60,7 +61,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // VerbCategoryBtn
             // 
-            this.VerbCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.VerbCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.VerbCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VerbCategoryBtn.Location = new System.Drawing.Point(114, 270);
             this.VerbCategoryBtn.Name = "VerbCategoryBtn";
@@ -72,7 +73,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // PronounCategoryBtn
             // 
-            this.PronounCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.PronounCategoryBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.PronounCategoryBtn.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PronounCategoryBtn.Location = new System.Drawing.Point(114, 377);
             this.PronounCategoryBtn.Name = "PronounCategoryBtn";
@@ -84,37 +85,40 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NLvl1Btn
             // 
+            this.NLvl1Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NLvl1Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NLvl1Btn.Location = new System.Drawing.Point(380, 157);
             this.NLvl1Btn.Name = "NLvl1Btn";
             this.NLvl1Btn.Size = new System.Drawing.Size(199, 80);
             this.NLvl1Btn.TabIndex = 3;
             this.NLvl1Btn.Text = "Level 1";
-            this.NLvl1Btn.UseVisualStyleBackColor = true;
+            this.NLvl1Btn.UseVisualStyleBackColor = false;
             this.NLvl1Btn.Visible = false;
             this.NLvl1Btn.Click += new System.EventHandler(this.NLvl1Btn_Click);
             // 
             // VLvl1Btn
             // 
+            this.VLvl1Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VLvl1Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VLvl1Btn.Location = new System.Drawing.Point(380, 270);
             this.VLvl1Btn.Name = "VLvl1Btn";
             this.VLvl1Btn.Size = new System.Drawing.Size(199, 80);
             this.VLvl1Btn.TabIndex = 4;
             this.VLvl1Btn.Text = "Level 1";
-            this.VLvl1Btn.UseVisualStyleBackColor = true;
+            this.VLvl1Btn.UseVisualStyleBackColor = false;
             this.VLvl1Btn.Visible = false;
             this.VLvl1Btn.Click += new System.EventHandler(this.VLvl1Btn_Click);
             // 
             // PLvl1Btn
             // 
+            this.PLvl1Btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PLvl1Btn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PLvl1Btn.Location = new System.Drawing.Point(380, 377);
             this.PLvl1Btn.Name = "PLvl1Btn";
             this.PLvl1Btn.Size = new System.Drawing.Size(199, 80);
             this.PLvl1Btn.TabIndex = 5;
             this.PLvl1Btn.Text = "Level 1";
-            this.PLvl1Btn.UseVisualStyleBackColor = true;
+            this.PLvl1Btn.UseVisualStyleBackColor = false;
             this.PLvl1Btn.Visible = false;
             this.PLvl1Btn.Click += new System.EventHandler(this.PLvl1Btn_Click);
             // 
@@ -169,48 +173,51 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NLvl2Btn1
             // 
+            this.NLvl2Btn1.BackColor = System.Drawing.Color.Blue;
             this.NLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NLvl2Btn1.Location = new System.Drawing.Point(655, 157);
             this.NLvl2Btn1.Name = "NLvl2Btn1";
             this.NLvl2Btn1.Size = new System.Drawing.Size(199, 80);
             this.NLvl2Btn1.TabIndex = 17;
             this.NLvl2Btn1.Text = "Level 2";
-            this.NLvl2Btn1.UseVisualStyleBackColor = true;
+            this.NLvl2Btn1.UseVisualStyleBackColor = false;
             this.NLvl2Btn1.Visible = false;
             this.NLvl2Btn1.Click += new System.EventHandler(this.NLvl2Btn1_Click);
             // 
             // VLvl2Btn1
             // 
+            this.VLvl2Btn1.BackColor = System.Drawing.Color.Blue;
             this.VLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.VLvl2Btn1.Location = new System.Drawing.Point(655, 270);
             this.VLvl2Btn1.Name = "VLvl2Btn1";
             this.VLvl2Btn1.Size = new System.Drawing.Size(199, 80);
             this.VLvl2Btn1.TabIndex = 18;
             this.VLvl2Btn1.Text = "Level 2";
-            this.VLvl2Btn1.UseVisualStyleBackColor = true;
+            this.VLvl2Btn1.UseVisualStyleBackColor = false;
             this.VLvl2Btn1.Visible = false;
             this.VLvl2Btn1.Click += new System.EventHandler(this.VLvl2Btn1_Click);
             // 
             // PLvl2Btn1
             // 
+            this.PLvl2Btn1.BackColor = System.Drawing.Color.Blue;
             this.PLvl2Btn1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PLvl2Btn1.Location = new System.Drawing.Point(655, 377);
             this.PLvl2Btn1.Name = "PLvl2Btn1";
             this.PLvl2Btn1.Size = new System.Drawing.Size(199, 80);
             this.PLvl2Btn1.TabIndex = 19;
             this.PLvl2Btn1.Text = "Level 2";
-            this.PLvl2Btn1.UseVisualStyleBackColor = true;
+            this.PLvl2Btn1.UseVisualStyleBackColor = false;
             this.PLvl2Btn1.Visible = false;
             this.PLvl2Btn1.Click += new System.EventHandler(this.PLvl2Btn1_Click);
             // 
             // BonusBtn
             // 
             this.BonusBtn.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BonusBtn.Location = new System.Drawing.Point(370, 482);
+            this.BonusBtn.Image = ((System.Drawing.Image)(resources.GetObject("BonusBtn.Image")));
+            this.BonusBtn.Location = new System.Drawing.Point(332, 475);
             this.BonusBtn.Name = "BonusBtn";
-            this.BonusBtn.Size = new System.Drawing.Size(220, 66);
+            this.BonusBtn.Size = new System.Drawing.Size(319, 73);
             this.BonusBtn.TabIndex = 20;
-            this.BonusBtn.Text = "Bonus Level";
             this.BonusBtn.UseVisualStyleBackColor = true;
             this.BonusBtn.Click += new System.EventHandler(this.BonusBtn_Click);
             // 
