@@ -38,7 +38,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(704, 415);
+            this.btnExit.Location = new System.Drawing.Point(487, 398);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -48,7 +48,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(613, 415);
+            this.btnBack.Location = new System.Drawing.Point(396, 398);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 8;
@@ -58,7 +58,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(485, 307);
+            this.btnNext.Location = new System.Drawing.Point(487, 297);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
             this.btnNext.TabIndex = 7;
@@ -68,7 +68,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(290, 307);
+            this.textBox1.Location = new System.Drawing.Point(292, 297);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 23);
             this.textBox1.TabIndex = 6;
@@ -78,7 +78,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl1.Location = new System.Drawing.Point(276, 149);
+            this.lbl1.Location = new System.Drawing.Point(292, 162);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(216, 46);
             this.lbl1.TabIndex = 5;
@@ -88,7 +88,8 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
+            this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
@@ -96,6 +97,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.lbl1);
             this.Name = "NounsLvl2Q1";
             this.Text = "NounsLvl2Learn";
+            this.Load += new System.EventHandler(this.NounsLvl2Q1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -85,17 +85,18 @@ namespace Learn_Japanese_Assignment_2
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // ProunounsLvl2Q1
+            // PronounsLvl2Q1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
-            this.Name = "ProunounsLvl2Q1";
+            this.Name = "PronounsLvl2Q1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProunounsLvl2Learn";
             this.Load += new System.EventHandler(this.ProunounsLvl2Learn_Load);

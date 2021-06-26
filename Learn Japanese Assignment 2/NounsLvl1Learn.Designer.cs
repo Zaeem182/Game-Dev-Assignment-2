@@ -136,6 +136,12 @@ namespace Learn_Japanese_Assignment_2
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.label1);
+
+            //this.ClientSize = new System.Drawing.Size(984, 561);
+            //this.Controls.Add(this.NQ1Study2);
+            //this.Controls.Add(this.NQ1Study3);
+            //this.Controls.Add(this.NQ1Study4);
+            //this.Controls.Add(this.NQ1Study5);
             this.Controls.Add(this.NounLvl1);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.ExitBtn);

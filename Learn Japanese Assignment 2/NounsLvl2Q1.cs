@@ -52,6 +52,11 @@ namespace Learn_Japanese_Assignment_2
         {
 
         }
+
+        private void NounsLvl2Q1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
