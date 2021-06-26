@@ -44,10 +44,11 @@ namespace Learn_Japanese_Assignment_2
             // NQ1
             // 
             this.NQ1.AutoSize = true;
-            this.NQ1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.NQ1.Location = new System.Drawing.Point(398, 132);
+            this.NQ1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NQ1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NQ1.Location = new System.Drawing.Point(400, 150);
             this.NQ1.Name = "NQ1";
-            this.NQ1.Size = new System.Drawing.Size(82, 32);
+            this.NQ1.Size = new System.Drawing.Size(102, 42);
             this.NQ1.TabIndex = 123;
             this.NQ1.Text = "Water";
             this.NQ1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -56,7 +57,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.NLvl1Q1Lbl.AutoSize = true;
             this.NLvl1Q1Lbl.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.NLvl1Q1Lbl.Location = new System.Drawing.Point(318, 4);
+            this.NLvl1Q1Lbl.Location = new System.Drawing.Point(323, 39);
             this.NLvl1Q1Lbl.Name = "NLvl1Q1Lbl";
             this.NLvl1Q1Lbl.Size = new System.Drawing.Size(251, 47);
             this.NLvl1Q1Lbl.TabIndex = 122;
@@ -64,87 +65,100 @@ namespace Learn_Japanese_Assignment_2
             // 
             // NQ1Option4
             // 
-            this.NQ1Option4.Location = new System.Drawing.Point(465, 377);
+            this.NQ1Option4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.NQ1Option4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NQ1Option4.Location = new System.Drawing.Point(458, 382);
             this.NQ1Option4.Name = "NQ1Option4";
             this.NQ1Option4.Size = new System.Drawing.Size(178, 90);
             this.NQ1Option4.TabIndex = 121;
             this.NQ1Option4.Text = "Kare-ra \"彼等\"";
-            this.NQ1Option4.UseVisualStyleBackColor = true;
+            this.NQ1Option4.UseVisualStyleBackColor = false;
             this.NQ1Option4.Click += new System.EventHandler(this.NQ1Option4_Click);
             // 
             // NQ1Option3
             // 
-            this.NQ1Option3.Location = new System.Drawing.Point(257, 377);
+            this.NQ1Option3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.NQ1Option3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NQ1Option3.Location = new System.Drawing.Point(250, 382);
             this.NQ1Option3.Name = "NQ1Option3";
             this.NQ1Option3.Size = new System.Drawing.Size(178, 90);
             this.NQ1Option3.TabIndex = 120;
             this.NQ1Option3.Text = "Pan  \"パン\"";
-            this.NQ1Option3.UseVisualStyleBackColor = true;
+            this.NQ1Option3.UseVisualStyleBackColor = false;
             this.NQ1Option3.Click += new System.EventHandler(this.NQ1Option3_Click);
             // 
             // NQ1Option2
             // 
-            this.NQ1Option2.Location = new System.Drawing.Point(465, 270);
+            this.NQ1Option2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.NQ1Option2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NQ1Option2.Location = new System.Drawing.Point(458, 275);
             this.NQ1Option2.Name = "NQ1Option2";
             this.NQ1Option2.Size = new System.Drawing.Size(178, 90);
             this.NQ1Option2.TabIndex = 119;
             this.NQ1Option2.Text = "Ashita  \"明日\"";
-            this.NQ1Option2.UseVisualStyleBackColor = true;
+            this.NQ1Option2.UseVisualStyleBackColor = false;
             this.NQ1Option2.Click += new System.EventHandler(this.NQ1Option2_Click);
             // 
             // NQ1Option1
             // 
-            this.NQ1Option1.Location = new System.Drawing.Point(257, 270);
+            this.NQ1Option1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.NQ1Option1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.NQ1Option1.Location = new System.Drawing.Point(250, 275);
             this.NQ1Option1.Name = "NQ1Option1";
             this.NQ1Option1.Size = new System.Drawing.Size(178, 90);
             this.NQ1Option1.TabIndex = 118;
             this.NQ1Option1.Text = "Mizu \"水\"";
-            this.NQ1Option1.UseVisualStyleBackColor = true;
+            this.NQ1Option1.UseVisualStyleBackColor = false;
             this.NQ1Option1.Click += new System.EventHandler(this.NQ1Option1_Click);
             // 
             // ExitBtn
             // 
+            this.ExitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.ExitBtn.Location = new System.Drawing.Point(797, 513);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(75, 36);
             this.ExitBtn.TabIndex = 117;
             this.ExitBtn.Text = "Exit";
-            this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
+            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.MuteBtn.Location = new System.Drawing.Point(681, 513);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(68, 36);
             this.MuteBtn.TabIndex = 116;
             this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = true;
+            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // NextBtn
             // 
+            this.NextBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.NextBtn.Location = new System.Drawing.Point(551, 513);
             this.NextBtn.Name = "NextBtn";
             this.NextBtn.Size = new System.Drawing.Size(75, 36);
             this.NextBtn.TabIndex = 115;
             this.NextBtn.Text = "Next>";
-            this.NextBtn.UseVisualStyleBackColor = true;
+            this.NextBtn.UseVisualStyleBackColor = false;
             this.NextBtn.Click += new System.EventHandler(this.NextBtn_Click);
             // 
             // CancelBtn
             // 
+            this.CancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.CancelBtn.Location = new System.Drawing.Point(42, 513);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(61, 36);
             this.CancelBtn.TabIndex = 114;
             this.CancelBtn.Text = "Cancel";
-            this.CancelBtn.UseVisualStyleBackColor = true;
+            this.CancelBtn.UseVisualStyleBackColor = false;
             this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // NounsLvl1Q2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.NQ1);
             this.Controls.Add(this.NLvl1Q1Lbl);

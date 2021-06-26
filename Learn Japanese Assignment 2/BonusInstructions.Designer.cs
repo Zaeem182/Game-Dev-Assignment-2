@@ -50,32 +50,35 @@ namespace Learn_Japanese_Assignment_2
             // 
             // ExitBtn
             // 
+            this.ExitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.ExitBtn.Location = new System.Drawing.Point(797, 513);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(75, 36);
             this.ExitBtn.TabIndex = 159;
             this.ExitBtn.Text = "Exit";
-            this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // NextBtn
             // 
+            this.NextBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.NextBtn.Location = new System.Drawing.Point(551, 513);
             this.NextBtn.Name = "NextBtn";
             this.NextBtn.Size = new System.Drawing.Size(75, 36);
             this.NextBtn.TabIndex = 157;
             this.NextBtn.Text = "Next>";
-            this.NextBtn.UseVisualStyleBackColor = true;
+            this.NextBtn.UseVisualStyleBackColor = false;
             this.NextBtn.Click += new System.EventHandler(this.NextBtn_Click);
             // 
             // BackBtn
             // 
+            this.BackBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.BackBtn.Location = new System.Drawing.Point(42, 513);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(61, 36);
             this.BackBtn.TabIndex = 156;
             this.BackBtn.Text = "<Back";
-            this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.UseVisualStyleBackColor = false;
             this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // label1
@@ -102,6 +105,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
