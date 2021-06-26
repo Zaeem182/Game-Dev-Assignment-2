@@ -172,6 +172,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.NQ1Study2);
             this.Controls.Add(this.NQ1Study3);

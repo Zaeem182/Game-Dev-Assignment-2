@@ -14,5 +14,10 @@ namespace Learn_Japanese_Assignment_2
         {
             InitializeComponent();
         }
+
+        private void VerbsLvl2Learn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
