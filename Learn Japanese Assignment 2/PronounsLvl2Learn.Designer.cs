@@ -117,6 +117,7 @@ namespace Learn_Japanese_Assignment_2
             this.NextBtn.TabIndex = 37;
             this.NextBtn.Text = "Next>";
             this.NextBtn.UseVisualStyleBackColor = true;
+            this.NextBtn.Click += new System.EventHandler(this.NextBtn_Click_1);
             // 
             // ExitBtn
             // 
@@ -144,6 +145,7 @@ namespace Learn_Japanese_Assignment_2
             this.BackBtn.TabIndex = 34;
             this.BackBtn.Text = "<Back";
             this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click_1);
             // 
             // NounLvl1instructionLbl
             // 
@@ -170,6 +172,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.PQ1Study2);
             this.Controls.Add(this.PQ1Study3);
@@ -185,6 +188,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.PLvl1Lbl);
             this.Name = "PronounsLvl2Learn";
             this.Text = "PronounsLvl2Learn";
+            this.Load += new System.EventHandler(this.PronounsLvl2Learn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

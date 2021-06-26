@@ -19,14 +19,14 @@ namespace Learn_Japanese_Assignment_2
             Application.Exit();
         }
 
-        private void BackBtn_Click(object sender, EventArgs e)
+        private void BackBtn_Click_1(object sender, EventArgs e)
         {
             this.Hide();
             Category start = new Category();
             start.Show();
         }
 
-        private void NextBtn_Click(object sender, EventArgs e)
+        private void NextBtn_Click_1(object sender, EventArgs e)
         {
             string message = "Are you ready to start the quiz?";
             string title = "Start?";
