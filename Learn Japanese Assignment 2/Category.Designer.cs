@@ -124,31 +124,34 @@ namespace Learn_Japanese_Assignment_2
             // 
             // ExitBtn
             // 
+            this.ExitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.ExitBtn.Location = new System.Drawing.Point(888, 509);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(84, 39);
             this.ExitBtn.TabIndex = 9;
             this.ExitBtn.Text = "Exit";
-            this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
+            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.MuteBtn.Location = new System.Drawing.Point(810, 508);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(53, 40);
             this.MuteBtn.TabIndex = 10;
             this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = true;
+            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // BackBtn
             // 
+            this.BackBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.BackBtn.Location = new System.Drawing.Point(109, 509);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(70, 39);
             this.BackBtn.TabIndex = 11;
             this.BackBtn.Text = "<Back";
-            this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.UseVisualStyleBackColor = false;
             this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // CategoryHeadingLbl
