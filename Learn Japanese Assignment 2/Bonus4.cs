@@ -54,22 +54,27 @@ namespace Learn_Japanese_Assignment_2
 
                 if (lives == 1)
                 {
+                    life1.ForeColor = Color.Red;
                     life1.Text = "</3";
                 }
                 if (lives == 2)
                 {
+                    life2.ForeColor = Color.Red;
                     life2.Text = "</3";
                 }
                 if (lives == 3)
                 {
+                    life3.ForeColor = Color.Red;
                     life3.Text = "</3";
                 }
                 if (lives == 4)
                 {
+                    life4.ForeColor = Color.Red;
                     life4.Text = "</3";
                 }
                 if (lives == 5)
                 {
+                    life5.ForeColor = Color.Red;
                     life5.Text = "</3";
                 }
             }

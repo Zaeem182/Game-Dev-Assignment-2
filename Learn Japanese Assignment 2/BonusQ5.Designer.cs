@@ -112,7 +112,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.life1.AutoSize = true;
             this.life1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.life1.Location = new System.Drawing.Point(665, 69);
+            this.life1.Location = new System.Drawing.Point(665, 70);
             this.life1.Name = "life1";
             this.life1.Size = new System.Drawing.Size(36, 25);
             this.life1.TabIndex = 235;
@@ -151,12 +151,13 @@ namespace Learn_Japanese_Assignment_2
             // 
             // SubmitBtn
             // 
+            this.SubmitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.SubmitBtn.Location = new System.Drawing.Point(473, 338);
             this.SubmitBtn.Name = "SubmitBtn";
             this.SubmitBtn.Size = new System.Drawing.Size(75, 35);
             this.SubmitBtn.TabIndex = 226;
             this.SubmitBtn.Text = "Submit";
-            this.SubmitBtn.UseVisualStyleBackColor = true;
+            this.SubmitBtn.UseVisualStyleBackColor = false;
             this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
             // 
             // EngDictionaryDefinition1
@@ -191,46 +192,51 @@ namespace Learn_Japanese_Assignment_2
             // 
             // ExitBtn
             // 
+            this.ExitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.ExitBtn.Location = new System.Drawing.Point(797, 513);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(75, 36);
             this.ExitBtn.TabIndex = 218;
             this.ExitBtn.Text = "Exit";
-            this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
+            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.MuteBtn.Location = new System.Drawing.Point(681, 513);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(68, 36);
             this.MuteBtn.TabIndex = 217;
             this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = true;
+            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // FinishBtn
             // 
+            this.FinishBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.FinishBtn.Location = new System.Drawing.Point(551, 513);
             this.FinishBtn.Name = "FinishBtn";
             this.FinishBtn.Size = new System.Drawing.Size(75, 36);
             this.FinishBtn.TabIndex = 216;
             this.FinishBtn.Text = "Finish>";
-            this.FinishBtn.UseVisualStyleBackColor = true;
+            this.FinishBtn.UseVisualStyleBackColor = false;
             this.FinishBtn.Click += new System.EventHandler(this.FinishBtn_Click);
             // 
             // CancelBtn
             // 
+            this.CancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
             this.CancelBtn.Location = new System.Drawing.Point(42, 513);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(61, 36);
             this.CancelBtn.TabIndex = 215;
             this.CancelBtn.Text = "Cancel";
-            this.CancelBtn.UseVisualStyleBackColor = true;
+            this.CancelBtn.UseVisualStyleBackColor = false;
             this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // Word2
             // 
             this.Word2.AutoSize = true;
+            this.Word2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Word2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Word2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Word2.Location = new System.Drawing.Point(366, 264);
@@ -243,6 +249,7 @@ namespace Learn_Japanese_Assignment_2
             // Placeholder2
             // 
             this.Placeholder2.AutoSize = true;
+            this.Placeholder2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Placeholder2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Placeholder2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Placeholder2.Location = new System.Drawing.Point(373, 264);
@@ -254,9 +261,10 @@ namespace Learn_Japanese_Assignment_2
             // Word3
             // 
             this.Word3.AutoSize = true;
+            this.Word3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Word3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Word3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.Word3.Location = new System.Drawing.Point(409, 264);
+            this.Word3.Location = new System.Drawing.Point(407, 264);
             this.Word3.Name = "Word3";
             this.Word3.Size = new System.Drawing.Size(30, 32);
             this.Word3.TabIndex = 224;
@@ -266,9 +274,10 @@ namespace Learn_Japanese_Assignment_2
             // Placeholder3
             // 
             this.Placeholder3.AutoSize = true;
+            this.Placeholder3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Placeholder3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Placeholder3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.Placeholder3.Location = new System.Drawing.Point(418, 264);
+            this.Placeholder3.Location = new System.Drawing.Point(416, 264);
             this.Placeholder3.Name = "Placeholder3";
             this.Placeholder3.Size = new System.Drawing.Size(21, 32);
             this.Placeholder3.TabIndex = 231;
@@ -277,6 +286,7 @@ namespace Learn_Japanese_Assignment_2
             // Word4
             // 
             this.Word4.AutoSize = true;
+            this.Word4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Word4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Word4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Word4.Location = new System.Drawing.Point(453, 264);
@@ -289,6 +299,7 @@ namespace Learn_Japanese_Assignment_2
             // Placeholder4
             // 
             this.Placeholder4.AutoSize = true;
+            this.Placeholder4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Placeholder4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Placeholder4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Placeholder4.Location = new System.Drawing.Point(453, 264);
@@ -300,6 +311,7 @@ namespace Learn_Japanese_Assignment_2
             // Word1
             // 
             this.Word1.AutoSize = true;
+            this.Word1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Word1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Word1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Word1.Location = new System.Drawing.Point(322, 264);
@@ -312,6 +324,7 @@ namespace Learn_Japanese_Assignment_2
             // Placeholder1
             // 
             this.Placeholder1.AutoSize = true;
+            this.Placeholder1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Placeholder1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Placeholder1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Placeholder1.Location = new System.Drawing.Point(328, 264);
@@ -323,6 +336,7 @@ namespace Learn_Japanese_Assignment_2
             // Word5
             // 
             this.Word5.AutoSize = true;
+            this.Word5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Word5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Word5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Word5.Location = new System.Drawing.Point(491, 264);
@@ -335,6 +349,7 @@ namespace Learn_Japanese_Assignment_2
             // Placeholder5
             // 
             this.Placeholder5.AutoSize = true;
+            this.Placeholder5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.Placeholder5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Placeholder5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.Placeholder5.Location = new System.Drawing.Point(496, 264);
@@ -348,6 +363,7 @@ namespace Learn_Japanese_Assignment_2
             this.AcceptButton = this.SubmitBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.life4);
             this.Controls.Add(this.life5);

@@ -100,7 +100,14 @@ namespace Learn_Japanese_Assignment_2
             else
             {
                 String title = "You Scored";
-                MessageBox.Show("" + Score() + " Out of 5", title);
+                MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
+                DialogResult result = MessageBox.Show("" + Score() + " Out of 5", title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    this.Hide();
+                    Category start = new Category();
+                    start.Show();
+                }
             }
         }
         private void NQ1Option1_Click(object sender, EventArgs e)

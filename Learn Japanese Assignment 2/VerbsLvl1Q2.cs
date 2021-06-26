@@ -87,7 +87,7 @@ namespace Learn_Japanese_Assignment_2
 
         private void VQ1Option3_Click(object sender, EventArgs e)
         {
-            VQ1Option4.BackColor = Color.Red;
+            VQ1Option3.BackColor = Color.Red;
 
             VQ1Option1.Enabled = false;
             VQ1Option2.Enabled = false;

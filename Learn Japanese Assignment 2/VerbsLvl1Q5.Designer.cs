@@ -44,10 +44,11 @@ namespace Learn_Japanese_Assignment_2
             // VQ1
             // 
             this.VQ1.AutoSize = true;
-            this.VQ1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.VQ1.Location = new System.Drawing.Point(386, 129);
+            this.VQ1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.VQ1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VQ1.Location = new System.Drawing.Point(397, 150);
             this.VQ1.Name = "VQ1";
-            this.VQ1.Size = new System.Drawing.Size(99, 32);
+            this.VQ1.Size = new System.Drawing.Size(122, 42);
             this.VQ1.TabIndex = 103;
             this.VQ1.Text = "Change";
             this.VQ1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -56,7 +57,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.VLvl1Q1Lbl.AutoSize = true;
             this.VLvl1Q1Lbl.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.VLvl1Q1Lbl.Location = new System.Drawing.Point(283, 2);
+            this.VLvl1Q1Lbl.Location = new System.Drawing.Point(323, 39);
             this.VLvl1Q1Lbl.Name = "VLvl1Q1Lbl";
             this.VLvl1Q1Lbl.Size = new System.Drawing.Size(236, 47);
             this.VLvl1Q1Lbl.TabIndex = 102;
@@ -64,85 +65,101 @@ namespace Learn_Japanese_Assignment_2
             // 
             // VQ1Option4
             // 
-            this.VQ1Option4.Location = new System.Drawing.Point(430, 375);
+            this.VQ1Option4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.VQ1Option4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VQ1Option4.Location = new System.Drawing.Point(458, 382);
             this.VQ1Option4.Name = "VQ1Option4";
             this.VQ1Option4.Size = new System.Drawing.Size(178, 90);
             this.VQ1Option4.TabIndex = 101;
             this.VQ1Option4.Text = "Kawaru \"変える\"";
-            this.VQ1Option4.UseVisualStyleBackColor = true;
+            this.VQ1Option4.UseVisualStyleBackColor = false;
             this.VQ1Option4.Click += new System.EventHandler(this.VQ1Option4_Click);
             // 
             // VQ1Option3
             // 
-            this.VQ1Option3.Location = new System.Drawing.Point(222, 375);
+            this.VQ1Option3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.VQ1Option3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VQ1Option3.Location = new System.Drawing.Point(250, 382);
             this.VQ1Option3.Name = "VQ1Option3";
             this.VQ1Option3.Size = new System.Drawing.Size(178, 90);
             this.VQ1Option3.TabIndex = 100;
             this.VQ1Option3.Text = "Anata \"貴方\"";
-            this.VQ1Option3.UseVisualStyleBackColor = true;
+            this.VQ1Option3.UseVisualStyleBackColor = false;
+            this.VQ1Option3.Click += new System.EventHandler(this.VQ1Option3_Click);
             // 
             // VQ1Option2
             // 
-            this.VQ1Option2.Location = new System.Drawing.Point(430, 268);
+            this.VQ1Option2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.VQ1Option2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VQ1Option2.Location = new System.Drawing.Point(458, 275);
             this.VQ1Option2.Name = "VQ1Option2";
             this.VQ1Option2.Size = new System.Drawing.Size(178, 90);
             this.VQ1Option2.TabIndex = 99;
             this.VQ1Option2.Text = "Hito \"人\"";
-            this.VQ1Option2.UseVisualStyleBackColor = true;
+            this.VQ1Option2.UseVisualStyleBackColor = false;
+            this.VQ1Option2.Click += new System.EventHandler(this.VQ1Option2_Click);
             // 
             // VQ1Option1
             // 
-            this.VQ1Option1.Location = new System.Drawing.Point(222, 268);
+            this.VQ1Option1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
+            this.VQ1Option1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.VQ1Option1.Location = new System.Drawing.Point(250, 275);
             this.VQ1Option1.Name = "VQ1Option1";
             this.VQ1Option1.Size = new System.Drawing.Size(178, 90);
             this.VQ1Option1.TabIndex = 98;
             this.VQ1Option1.Text = "Okiru \"おきる\"";
-            this.VQ1Option1.UseVisualStyleBackColor = true;
+            this.VQ1Option1.UseVisualStyleBackColor = false;
+            this.VQ1Option1.Click += new System.EventHandler(this.VQ1Option1_Click);
             // 
             // ExitBtn
             // 
-            this.ExitBtn.Location = new System.Drawing.Point(766, 500);
+            this.ExitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
+            this.ExitBtn.Location = new System.Drawing.Point(797, 513);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(75, 36);
             this.ExitBtn.TabIndex = 97;
             this.ExitBtn.Text = "Exit";
-            this.ExitBtn.UseVisualStyleBackColor = true;
+            this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // MuteBtn
             // 
-            this.MuteBtn.Location = new System.Drawing.Point(650, 500);
+            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
+            this.MuteBtn.Location = new System.Drawing.Point(681, 513);
             this.MuteBtn.Name = "MuteBtn";
             this.MuteBtn.Size = new System.Drawing.Size(68, 36);
             this.MuteBtn.TabIndex = 96;
             this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = true;
+            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // SubmitBtn
             // 
-            this.SubmitBtn.Location = new System.Drawing.Point(520, 500);
+            this.SubmitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
+            this.SubmitBtn.Location = new System.Drawing.Point(551, 513);
             this.SubmitBtn.Name = "SubmitBtn";
             this.SubmitBtn.Size = new System.Drawing.Size(75, 36);
             this.SubmitBtn.TabIndex = 95;
             this.SubmitBtn.Text = "Submit>";
-            this.SubmitBtn.UseVisualStyleBackColor = true;
+            this.SubmitBtn.UseVisualStyleBackColor = false;
             this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
             // 
             // CancelBtn
             // 
-            this.CancelBtn.Location = new System.Drawing.Point(11, 500);
+            this.CancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
+            this.CancelBtn.Location = new System.Drawing.Point(42, 513);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.Size = new System.Drawing.Size(61, 36);
             this.CancelBtn.TabIndex = 94;
             this.CancelBtn.Text = "Cancel";
-            this.CancelBtn.UseVisualStyleBackColor = true;
+            this.CancelBtn.UseVisualStyleBackColor = false;
             this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // VerbsLvl1Q5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 538);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
+            this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.VQ1);
             this.Controls.Add(this.VLvl1Q1Lbl);
             this.Controls.Add(this.VQ1Option4);
