@@ -58,3 +58,62 @@ C:\Users\Zaeem\source\repos\Game-Dev-Assignment-2\Learn Japanese Assignment 2\ob
 C:\Users\Zaeem\source\repos\Game-Dev-Assignment-2\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.pdb
 C:\Users\Zaeem\source\repos\Game-Dev-Assignment-2\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.genruntimeconfig.cache
 C:\Users\Zaeem\source\repos\Game-Dev-Assignment-2\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.csprojAssemblyReference.cache
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.exe
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.deps.json
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.runtimeconfig.json
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.runtimeconfig.dev.json
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.dll
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.pdb
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.Bonus4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusInstructions.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusLvl.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusQ2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusQ3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusQ5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.Category.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl1Learn.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl1Q1.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl1Q2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl1Q3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl1Q4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl1Q5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl2Learn.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl2Q1.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl2Q2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl2Q3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl2Q4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.NounsLvl2Q5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl1Learn.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl1Q1.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl1Q2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl1Q3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl1Q4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl1Q5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl2Learn.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl2Q1.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl2Q2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl2Q3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl2Q4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.PronounsLvl2Q5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.Properties.Resources.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.SplashScreen.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl1Learn.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl1Q1.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl1Q2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl1Q3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl1Q4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl1Q5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl2Learn.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl2Q1.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl2Q2.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl2Q3.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl2Q4.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.VerbsLvl2Q5.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.WelcomeScreen.resources
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.csproj.GenerateResource.cache
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.AssemblyInfoInputs.cache
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.AssemblyInfo.cs
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.csproj.CoreCompileInputs.cache
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.dll
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.pdb
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.genruntimeconfig.cache
