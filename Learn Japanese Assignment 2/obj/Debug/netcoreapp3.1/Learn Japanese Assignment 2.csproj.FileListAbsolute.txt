@@ -117,3 +117,4 @@ C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn J
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.dll
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.pdb
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.genruntimeconfig.cache
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.csproj.AssemblyReference.cache

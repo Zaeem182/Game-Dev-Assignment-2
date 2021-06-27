@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Media;
 using System.Text;
 using System.Windows.Forms;
 
@@ -10,15 +11,19 @@ namespace Learn_Japanese_Assignment_2
 {
     public partial class NounsLvl2Q1 : Form
     {
+        public static NounsLvl2Q1 instance; 
         public NounsLvl2Q1()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "Japan")
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Correct_Sound.wav");
+                splayer.Play();
                 textBox1.ForeColor = Color.Green;
                 MessageBox.Show("Correct!");
                 this.Hide();
@@ -27,6 +32,8 @@ namespace Learn_Japanese_Assignment_2
             }
             else
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+                splayer.Play();
                 textBox1.ForeColor = Color.Red;
                 MessageBox.Show("Incorrect!");
                 this.Hide();
