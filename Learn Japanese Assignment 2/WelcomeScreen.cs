@@ -28,7 +28,7 @@ namespace Learn_Japanese_Assignment_2
         private void btn1_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            StartScreen start = new StartScreen();
+            Category start = new Category();
             start.Show();
         }
 

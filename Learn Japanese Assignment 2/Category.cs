@@ -86,7 +86,7 @@ namespace Learn_Japanese_Assignment_2
         private void BackBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            StartScreen start = new StartScreen();
+            WelcomeScreen start = new WelcomeScreen();
             start.Show();
         }
 
