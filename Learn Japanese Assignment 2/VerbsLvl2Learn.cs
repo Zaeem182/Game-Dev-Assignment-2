@@ -42,4 +42,3 @@ namespace Learn_Japanese_Assignment_2
         }
     }
     }
-}

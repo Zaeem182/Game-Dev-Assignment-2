@@ -145,6 +145,7 @@ namespace Learn_Japanese_Assignment_2
             // PQ1
             // 
             this.PQ1.AutoSize = true;
+            this.PQ1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PQ1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PQ1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.PQ1.Location = new System.Drawing.Point(430, 150);
