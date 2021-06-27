@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Bonus4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BonusInstructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BonusLvl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BonusQ2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BonusQ3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BonusQ5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl1Learn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl1Q1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl1Q2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl1Q3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl1Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl1Q5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl2Learn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl2Q1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl2Q2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl2Q3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl2Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NounsLvl2Q5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl1Learn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl1Q1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl1Q2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl1Q3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl1Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl1Q5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl2Learn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl2Q1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl2Q2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl2Q3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl2Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PronounsLvl2Q5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl1Learn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl1Q1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl1Q2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl1Q3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl1Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl1Q5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl2Learn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl2Q1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl2Q2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl2Q3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl2Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VerbsLvl2Q5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WelcomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
