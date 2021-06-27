@@ -31,7 +31,6 @@ namespace Learn_Japanese_Assignment_2
         {
             this.NextBtn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
-            this.MuteBtn = new System.Windows.Forms.Button();
             this.BackBtn = new System.Windows.Forms.Button();
             this.NounLvl1instructionLbl = new System.Windows.Forms.Label();
             this.VLvl1Lbl = new System.Windows.Forms.Label();
@@ -53,23 +52,13 @@ namespace Learn_Japanese_Assignment_2
             // ExitBtn
             // 
             this.ExitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
-            this.ExitBtn.Location = new System.Drawing.Point(787, 512);
+            this.ExitBtn.Location = new System.Drawing.Point(692, 514);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(85, 37);
             this.ExitBtn.TabIndex = 10;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
-            // 
-            // MuteBtn
-            // 
-            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
-            this.MuteBtn.Location = new System.Drawing.Point(681, 513);
-            this.MuteBtn.Name = "MuteBtn";
-            this.MuteBtn.Size = new System.Drawing.Size(68, 36);
-            this.MuteBtn.TabIndex = 9;
-            this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // BackBtn
             // 
@@ -96,7 +85,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.VLvl1Lbl.AutoSize = true;
             this.VLvl1Lbl.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.VLvl1Lbl.Location = new System.Drawing.Point(323, 39);
+            this.VLvl1Lbl.Location = new System.Drawing.Point(275, 39);
             this.VLvl1Lbl.Name = "VLvl1Lbl";
             this.VLvl1Lbl.Size = new System.Drawing.Size(236, 47);
             this.VLvl1Lbl.TabIndex = 6;
@@ -108,7 +97,7 @@ namespace Learn_Japanese_Assignment_2
             this.VerbsLvl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.VerbsLvl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.VerbsLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.VerbsLvl1.Location = new System.Drawing.Point(323, 171);
+            this.VerbsLvl1.Location = new System.Drawing.Point(275, 176);
             this.VerbsLvl1.Name = "VerbsLvl1";
             this.VerbsLvl1.Size = new System.Drawing.Size(240, 34);
             this.VerbsLvl1.TabIndex = 33;
@@ -121,7 +110,7 @@ namespace Learn_Japanese_Assignment_2
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(298, 224);
+            this.label1.Location = new System.Drawing.Point(250, 229);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 272);
             this.label1.TabIndex = 38;
@@ -134,12 +123,11 @@ namespace Learn_Japanese_Assignment_2
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.VerbsLvl1);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.ExitBtn);
-            this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.NounLvl1instructionLbl);
             this.Controls.Add(this.VLvl1Lbl);
@@ -157,7 +145,6 @@ namespace Learn_Japanese_Assignment_2
 
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.Button ExitBtn;
-        private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Button BackBtn;
         private System.Windows.Forms.Label NounLvl1instructionLbl;
         private System.Windows.Forms.Label VLvl1Lbl;

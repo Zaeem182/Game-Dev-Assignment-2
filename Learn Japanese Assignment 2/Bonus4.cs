@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Learn_Japanese_Assignment_2
 {
@@ -45,8 +46,6 @@ namespace Learn_Japanese_Assignment_2
 
         private void Lives()
         {
-
-
             if (GuessTxt.Text != "W" && GuessTxt.Text != "w" & GuessTxt.Text != "E" && GuessTxt.Text != "e" && GuessTxt.Text != "k"
                 && GuessTxt.Text != "K")
             {
@@ -54,32 +53,50 @@ namespace Learn_Japanese_Assignment_2
 
                 if (lives == 1)
                 {
+                    SoundPlayer splayer = new SoundPlayer(@".\Sounds\8_bit_incorrect_bonus.wav");
+                    splayer.Play();
+
                     life1.ForeColor = Color.Red;
                     life1.Text = "</3";
                 }
                 if (lives == 2)
                 {
+                    SoundPlayer splayer = new SoundPlayer(@".\Sounds\8_bit_incorrect_bonus.wav");
+                    splayer.Play();
+
                     life2.ForeColor = Color.Red;
                     life2.Text = "</3";
                 }
                 if (lives == 3)
                 {
+                    SoundPlayer splayer = new SoundPlayer(@".\Sounds\8_bit_incorrect_bonus.wav");
+                    splayer.Play();
+
                     life3.ForeColor = Color.Red;
                     life3.Text = "</3";
                 }
                 if (lives == 4)
                 {
+                    SoundPlayer splayer = new SoundPlayer(@".\Sounds\8_bit_incorrect_bonus.wav");
+                    splayer.Play();
+
                     life4.ForeColor = Color.Red;
                     life4.Text = "</3";
                 }
                 if (lives == 5)
                 {
+                    SoundPlayer splayer = new SoundPlayer(@".\Sounds\8_bit_incorrect_bonus.wav");
+                    splayer.Play();
+
                     life5.ForeColor = Color.Red;
                     life5.Text = "</3";
                 }
             }
             if (lives == 5)
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_sound.wav");
+                splayer.Play();
+
                 SubmitBtn.Enabled = false;
                 GuessTxt.Enabled = false;
                 String title = "ALL LIVES LOST :(";
@@ -92,12 +109,18 @@ namespace Learn_Japanese_Assignment_2
         {
             if (GuessTxt.Text == "W" || GuessTxt.Text == "w")
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Ding_Sound_Bonus.wav");
+                splayer.Play();
+
                 Placeholder1.Visible = false;
                 Word1.Visible = true;
                 GuessTxt.Text = "";
             }
             if (GuessTxt.Text == "E" || GuessTxt.Text == "e")
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Ding_Sound_Bonus.wav");
+                splayer.Play();
+
                 Placeholder2.Visible = false;
                 Placeholder3.Visible = false;
 
@@ -107,6 +130,9 @@ namespace Learn_Japanese_Assignment_2
             }
             if (GuessTxt.Text == "K" || GuessTxt.Text == "k")
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Ding_Sound_Bonus.wav");
+                splayer.Play();
+
                 Placeholder4.Visible = false;
                 Word4.Visible = true;
                 GuessTxt.Text = "";
@@ -117,6 +143,9 @@ namespace Learn_Japanese_Assignment_2
         {
             if (Word1.Visible == true && Word2.Visible == true && Word3.Visible == true && Word4.Visible == true)
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Correct_Sound.wav");
+                splayer.Play();
+
                 correct = true;
 
                 SubmitBtn.Enabled = false;
