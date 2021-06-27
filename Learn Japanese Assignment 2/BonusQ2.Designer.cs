@@ -43,7 +43,6 @@ namespace Learn_Japanese_Assignment_2
             this.JapaneseWord1 = new System.Windows.Forms.Label();
             this.BonusLvlHeadingLbl = new System.Windows.Forms.Label();
             this.ExitBtn = new System.Windows.Forms.Button();
-            this.MuteBtn = new System.Windows.Forms.Button();
             this.NextBtn = new System.Windows.Forms.Button();
             this.CancelBtn = new System.Windows.Forms.Button();
             this.Word2 = new System.Windows.Forms.Label();
@@ -202,16 +201,6 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
-            // 
-            // MuteBtn
-            // 
-            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
-            this.MuteBtn.Location = new System.Drawing.Point(681, 513);
-            this.MuteBtn.Name = "MuteBtn";
-            this.MuteBtn.Size = new System.Drawing.Size(68, 36);
-            this.MuteBtn.TabIndex = 158;
-            this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // NextBtn
             // 
@@ -407,7 +396,6 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.JapaneseWord1);
             this.Controls.Add(this.BonusLvlHeadingLbl);
             this.Controls.Add(this.ExitBtn);
-            this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
             this.Controls.Add(this.Word2);
@@ -446,7 +434,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label JapaneseWord1;
         private System.Windows.Forms.Label BonusLvlHeadingLbl;
         private System.Windows.Forms.Button ExitBtn;
-        private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.Button CancelBtn;
         private System.Windows.Forms.Label Word2;

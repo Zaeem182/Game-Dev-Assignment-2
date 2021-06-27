@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Learn_Japanese_Assignment_2
 {
@@ -25,20 +26,6 @@ namespace Learn_Japanese_Assignment_2
         private void ExitBtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        //correct answer
-        private void PQ1Option3_Click(object sender, EventArgs e)
-        {
-            correct = true;
-
-            PQ1Option3.BackColor = Color.Green;
-
-            PQ1Option1.Enabled = false;
-            PQ1Option2.Enabled = false;
-            PQ1Option3.Enabled = false;
-            PQ1Option4.Enabled = false;
-
         }
 
         private void NextBtn_Click(object sender, EventArgs e)
@@ -80,9 +67,29 @@ namespace Learn_Japanese_Assignment_2
             }
             
         }
-        //wrong answers
+
+        //Correct answer
+        private void PQ1Option3_Click(object sender, EventArgs e)
+        {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Correct_Sound.wav");
+            splayer.Play();
+
+            correct = true;
+
+            PQ1Option3.BackColor = Color.Green;
+
+            PQ1Option1.Enabled = false;
+            PQ1Option2.Enabled = false;
+            PQ1Option3.Enabled = false;
+            PQ1Option4.Enabled = false;
+        }
+
+        //Wrong answers
         private void PQ1Option1_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+            splayer.Play();
+
             PQ1Option1.BackColor = Color.Red;
 
             PQ1Option1.Enabled = false;
@@ -93,6 +100,9 @@ namespace Learn_Japanese_Assignment_2
 
         private void PQ1Option2_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+            splayer.Play();
+
             PQ1Option2.BackColor = Color.Red;
 
             PQ1Option1.Enabled = false;
@@ -103,6 +113,9 @@ namespace Learn_Japanese_Assignment_2
 
         private void PQ1Option4_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+            splayer.Play();
+
             PQ1Option4.BackColor = Color.Red;
 
             PQ1Option1.Enabled = false;

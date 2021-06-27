@@ -37,7 +37,6 @@ namespace Learn_Japanese_Assignment_2
             this.VLvl1Btn = new System.Windows.Forms.Button();
             this.PLvl1Btn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
-            this.MuteBtn = new System.Windows.Forms.Button();
             this.BackBtn = new System.Windows.Forms.Button();
             this.CategoryHeadingLbl = new System.Windows.Forms.Label();
             this.CategorySubHeadingLbl = new System.Windows.Forms.Label();
@@ -133,16 +132,6 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
-            // MuteBtn
-            // 
-            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
-            this.MuteBtn.Location = new System.Drawing.Point(810, 508);
-            this.MuteBtn.Name = "MuteBtn";
-            this.MuteBtn.Size = new System.Drawing.Size(53, 40);
-            this.MuteBtn.TabIndex = 10;
-            this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = false;
-            // 
             // BackBtn
             // 
             this.BackBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
@@ -237,7 +226,6 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.CategorySubHeadingLbl);
             this.Controls.Add(this.CategoryHeadingLbl);
             this.Controls.Add(this.BackBtn);
-            this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.PLvl1Btn);
             this.Controls.Add(this.VLvl1Btn);
@@ -263,7 +251,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button VLvl1Btn;
         private System.Windows.Forms.Button PLvl1Btn;
         private System.Windows.Forms.Button ExitBtn;
-        private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Label CategoryHeadingLbl;
         private System.Windows.Forms.Label CategorySubHeadingLbl;
         private System.Windows.Forms.Button BackBtn;

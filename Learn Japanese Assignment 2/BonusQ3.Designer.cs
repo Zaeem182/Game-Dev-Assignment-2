@@ -29,7 +29,6 @@ namespace Learn_Japanese_Assignment_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.life4 = new System.Windows.Forms.Label();
             this.life5 = new System.Windows.Forms.Label();
             this.LivesLbl = new System.Windows.Forms.Label();
             this.life3 = new System.Windows.Forms.Label();
@@ -43,7 +42,6 @@ namespace Learn_Japanese_Assignment_2
             this.JapaneseWord1 = new System.Windows.Forms.Label();
             this.BonusLvlHeadingLbl = new System.Windows.Forms.Label();
             this.ExitBtn = new System.Windows.Forms.Button();
-            this.MuteBtn = new System.Windows.Forms.Button();
             this.NextBtn = new System.Windows.Forms.Button();
             this.CancelBtn = new System.Windows.Forms.Button();
             this.Word2 = new System.Windows.Forms.Label();
@@ -56,17 +54,8 @@ namespace Learn_Japanese_Assignment_2
             this.Placeholder1 = new System.Windows.Forms.Label();
             this.Word5 = new System.Windows.Forms.Label();
             this.Placeholder5 = new System.Windows.Forms.Label();
+            this.life4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // life4
-            // 
-            this.life4.AutoSize = true;
-            this.life4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.life4.Location = new System.Drawing.Point(791, 70);
-            this.life4.Name = "life4";
-            this.life4.Size = new System.Drawing.Size(36, 25);
-            this.life4.TabIndex = 212;
-            this.life4.Text = "<3";
             // 
             // life5
             // 
@@ -200,16 +189,6 @@ namespace Learn_Japanese_Assignment_2
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
-            // 
-            // MuteBtn
-            // 
-            this.MuteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(187)))), ((int)(((byte)(160)))));
-            this.MuteBtn.Location = new System.Drawing.Point(681, 513);
-            this.MuteBtn.Name = "MuteBtn";
-            this.MuteBtn.Size = new System.Drawing.Size(68, 36);
-            this.MuteBtn.TabIndex = 188;
-            this.MuteBtn.Text = "Mute";
-            this.MuteBtn.UseVisualStyleBackColor = false;
             // 
             // NextBtn
             // 
@@ -358,6 +337,16 @@ namespace Learn_Japanese_Assignment_2
             this.Placeholder5.TabIndex = 214;
             this.Placeholder5.Text = " ";
             // 
+            // life4
+            // 
+            this.life4.AutoSize = true;
+            this.life4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.life4.Location = new System.Drawing.Point(791, 70);
+            this.life4.Name = "life4";
+            this.life4.Size = new System.Drawing.Size(36, 25);
+            this.life4.TabIndex = 212;
+            this.life4.Text = "<3";
+            // 
             // BonusQ3
             // 
             this.AcceptButton = this.SubmitBtn;
@@ -379,7 +368,6 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.JapaneseWord1);
             this.Controls.Add(this.BonusLvlHeadingLbl);
             this.Controls.Add(this.ExitBtn);
-            this.Controls.Add(this.MuteBtn);
             this.Controls.Add(this.NextBtn);
             this.Controls.Add(this.CancelBtn);
             this.Controls.Add(this.Word2);
@@ -402,7 +390,6 @@ namespace Learn_Japanese_Assignment_2
         }
 
         #endregion
-        private System.Windows.Forms.Label life4;
         private System.Windows.Forms.Label life5;
         private System.Windows.Forms.Label LivesLbl;
         private System.Windows.Forms.Label life3;
@@ -416,7 +403,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label JapaneseWord1;
         private System.Windows.Forms.Label BonusLvlHeadingLbl;
         private System.Windows.Forms.Button ExitBtn;
-        private System.Windows.Forms.Button MuteBtn;
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.Button CancelBtn;
         private System.Windows.Forms.Label Word2;
@@ -429,5 +415,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label Placeholder1;
         private System.Windows.Forms.Label Word5;
         private System.Windows.Forms.Label Placeholder5;
+        private System.Windows.Forms.Label life4;
     }
 }

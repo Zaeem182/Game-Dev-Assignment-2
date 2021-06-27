@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Learn_Japanese_Assignment_2
 {
@@ -64,8 +65,12 @@ namespace Learn_Japanese_Assignment_2
             }
         }
 
+        //Correct Answer
         private void VQ1Option4_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Correct_Sound.wav");
+            splayer.Play();
+
             correct = true;
 
             VQ1Option4.BackColor = Color.Green;
@@ -76,8 +81,12 @@ namespace Learn_Japanese_Assignment_2
             VQ1Option4.Enabled = false;
         }
 
+        //Wrong Answers
         private void VQ1Option1_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+            splayer.Play();
+
             VQ1Option1.BackColor = Color.Red;
 
             VQ1Option1.Enabled = false;
@@ -88,6 +97,9 @@ namespace Learn_Japanese_Assignment_2
 
         private void VQ1Option2_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+            splayer.Play();
+
             VQ1Option2.BackColor = Color.Red;
 
             VQ1Option1.Enabled = false;
@@ -98,6 +110,9 @@ namespace Learn_Japanese_Assignment_2
 
         private void VQ1Option3_Click(object sender, EventArgs e)
         {
+            SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+            splayer.Play();
+
             VQ1Option3.BackColor = Color.Red;
 
             VQ1Option1.Enabled = false;
