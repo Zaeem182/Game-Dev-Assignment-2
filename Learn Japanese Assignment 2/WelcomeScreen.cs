@@ -20,21 +20,11 @@ namespace Learn_Japanese_Assignment_2
 
         }
 
-        private void Btn1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btn1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Category start = new Category();
             start.Show();
-        }
-
-        private void WelcomeScreen_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
