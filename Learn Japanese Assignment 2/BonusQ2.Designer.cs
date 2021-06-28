@@ -149,6 +149,7 @@ namespace Learn_Japanese_Assignment_2
             this.GuessTxt.Size = new System.Drawing.Size(198, 35);
             this.GuessTxt.TabIndex = 168;
             this.GuessTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.GuessTxt.TextChanged += new System.EventHandler(this.GuessTxt_TextChanged);
             // 
             // SubmitBtn
             // 
