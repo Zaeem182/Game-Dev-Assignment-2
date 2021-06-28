@@ -36,6 +36,7 @@ namespace Learn_Japanese_Assignment_2
             this.lbl1 = new System.Windows.Forms.Label();
             this.PLvl1Q1Lbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.SubmitBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExit
@@ -60,7 +61,7 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(475, 302);
+            this.btnNext.Location = new System.Drawing.Point(613, 410);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 23);
             this.btnNext.TabIndex = 12;
@@ -108,12 +109,24 @@ namespace Learn_Japanese_Assignment_2
             this.label1.TabIndex = 28;
             this.label1.Text = "Type the English translation into the textbox below";
             // 
+            // SubmitBtn
+            // 
+            this.SubmitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.SubmitBtn.Location = new System.Drawing.Point(465, 295);
+            this.SubmitBtn.Name = "SubmitBtn";
+            this.SubmitBtn.Size = new System.Drawing.Size(75, 35);
+            this.SubmitBtn.TabIndex = 171;
+            this.SubmitBtn.Text = "Submit";
+            this.SubmitBtn.UseVisualStyleBackColor = false;
+            this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
+            // 
             // VerbsLvl2Q5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.SubmitBtn);
             this.Controls.Add(this.PLvl1Q1Lbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
@@ -138,5 +151,6 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Label PLvl1Q1Lbl;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button SubmitBtn;
     }
 }
