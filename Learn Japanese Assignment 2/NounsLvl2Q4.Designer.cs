@@ -80,10 +80,11 @@ namespace Learn_Japanese_Assignment_2
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl1.Location = new System.Drawing.Point(292, 220);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(172, 46);
+            this.lbl1.Size = new System.Drawing.Size(174, 48);
             this.lbl1.TabIndex = 10;
             this.lbl1.Text = "Pan (パン)";
             this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
