@@ -34,11 +34,13 @@ namespace Learn_Japanese_Assignment_2
             this.btnNext = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbl1 = new System.Windows.Forms.Label();
+            this.PLvl1Q1Lbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(704, 416);
+            this.btnExit.Location = new System.Drawing.Point(701, 402);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -48,11 +50,11 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(613, 416);
+            this.btnBack.Location = new System.Drawing.Point(28, 402);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 8;
-            this.btnBack.Text = "Back";
+            this.btnBack.Text = "Cancel";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click_1);
             // 
@@ -77,12 +79,34 @@ namespace Learn_Japanese_Assignment_2
             // lbl1
             // 
             this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl1.Location = new System.Drawing.Point(276, 150);
+            this.lbl1.Location = new System.Drawing.Point(290, 217);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(149, 46);
+            this.lbl1.Size = new System.Drawing.Size(151, 48);
             this.lbl1.TabIndex = 5;
             this.lbl1.Text = "Nani(何)";
+            // 
+            // PLvl1Q1Lbl
+            // 
+            this.PLvl1Q1Lbl.AutoSize = true;
+            this.PLvl1Q1Lbl.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PLvl1Q1Lbl.Location = new System.Drawing.Point(247, 18);
+            this.PLvl1Q1Lbl.Name = "PLvl1Q1Lbl";
+            this.PLvl1Q1Lbl.Size = new System.Drawing.Size(301, 47);
+            this.PLvl1Q1Lbl.TabIndex = 25;
+            this.PLvl1Q1Lbl.Text = "Pronouns Level 2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(95, 130);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(619, 32);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Type the English translation into the textbox below";
             // 
             // PronounsLvl2Q5
             // 
@@ -90,12 +114,15 @@ namespace Learn_Japanese_Assignment_2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PLvl1Q1Lbl);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl1);
             this.Name = "PronounsLvl2Q5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProunounsLvl2Q5";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -109,5 +136,7 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label PLvl1Q1Lbl;
+        private System.Windows.Forms.Label label1;
     }
 }

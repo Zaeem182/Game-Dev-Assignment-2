@@ -34,15 +34,19 @@ namespace Learn_Japanese_Assignment_2
             this.btnNext = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.PLvl1Q1Lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
+            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl1.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl1.Location = new System.Drawing.Point(271, 149);
+            this.lbl1.Location = new System.Drawing.Point(285, 230);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(225, 46);
+            this.lbl1.Size = new System.Drawing.Size(227, 48);
             this.lbl1.TabIndex = 0;
             this.lbl1.Text = "kare-ra(彼等)";
             this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
@@ -67,17 +71,17 @@ namespace Learn_Japanese_Assignment_2
             // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(608, 415);
+            this.btnBack.Location = new System.Drawing.Point(27, 405);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
             this.btnBack.TabIndex = 3;
-            this.btnBack.Text = "Back";
+            this.btnBack.Text = "Cancel";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(699, 415);
+            this.btnExit.Location = new System.Drawing.Point(698, 405);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 4;
@@ -85,12 +89,34 @@ namespace Learn_Japanese_Assignment_2
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(91, 147);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(619, 32);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Type the English translation into the textbox below";
+            // 
+            // PLvl1Q1Lbl
+            // 
+            this.PLvl1Q1Lbl.AutoSize = true;
+            this.PLvl1Q1Lbl.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.PLvl1Q1Lbl.Location = new System.Drawing.Point(243, 35);
+            this.PLvl1Q1Lbl.Name = "PLvl1Q1Lbl";
+            this.PLvl1Q1Lbl.Size = new System.Drawing.Size(301, 47);
+            this.PLvl1Q1Lbl.TabIndex = 23;
+            this.PLvl1Q1Lbl.Text = "Pronouns Level 2";
+            // 
             // PronounsLvl2Q1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(160)))), ((int)(((byte)(124)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PLvl1Q1Lbl);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNext);
@@ -112,5 +138,7 @@ namespace Learn_Japanese_Assignment_2
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label PLvl1Q1Lbl;
     }
 }

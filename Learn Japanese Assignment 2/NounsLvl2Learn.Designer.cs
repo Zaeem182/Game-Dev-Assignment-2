@@ -46,6 +46,7 @@ namespace Learn_Japanese_Assignment_2
             // NQ1Study2
             // 
             this.NQ1Study2.AutoSize = true;
+            this.NQ1Study2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.NQ1Study2.Location = new System.Drawing.Point(345, 278);
             this.NQ1Study2.Name = "NQ1Study2";
@@ -57,6 +58,7 @@ namespace Learn_Japanese_Assignment_2
             // NQ1Study3
             // 
             this.NQ1Study3.AutoSize = true;
+            this.NQ1Study3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.NQ1Study3.Location = new System.Drawing.Point(345, 331);
             this.NQ1Study3.Name = "NQ1Study3";
@@ -68,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             // NQ1Study4
             // 
             this.NQ1Study4.AutoSize = true;
+            this.NQ1Study4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.NQ1Study4.Location = new System.Drawing.Point(345, 381);
             this.NQ1Study4.Name = "NQ1Study4";
@@ -79,6 +82,7 @@ namespace Learn_Japanese_Assignment_2
             // NQ1Study5
             // 
             this.NQ1Study5.AutoSize = true;
+            this.NQ1Study5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.NQ1Study5.Location = new System.Drawing.Point(345, 434);
             this.NQ1Study5.Name = "NQ1Study5";
@@ -90,6 +94,7 @@ namespace Learn_Japanese_Assignment_2
             // NounLvl1
             // 
             this.NounLvl1.AutoSize = true;
+            this.NounLvl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NounLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.NounLvl1.Location = new System.Drawing.Point(345, 178);
             this.NounLvl1.Name = "NounLvl1";
@@ -101,6 +106,7 @@ namespace Learn_Japanese_Assignment_2
             // NQ1Study1
             // 
             this.NQ1Study1.AutoSize = true;
+            this.NQ1Study1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.NQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.NQ1Study1.Location = new System.Drawing.Point(345, 231);
             this.NQ1Study1.Name = "NQ1Study1";
@@ -187,6 +193,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.NounLvl1instructionLbl);
             this.Controls.Add(this.NLvl1Lbl);
             this.Name = "NounsLvl2Learn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NounsLvl2Learn";
             this.ResumeLayout(false);
             this.PerformLayout();

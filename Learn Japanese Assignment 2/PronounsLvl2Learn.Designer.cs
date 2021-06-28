@@ -46,6 +46,7 @@ namespace Learn_Japanese_Assignment_2
             // PQ1Study2
             // 
             this.PQ1Study2.AutoSize = true;
+            this.PQ1Study2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.PQ1Study2.Location = new System.Drawing.Point(390, 257);
             this.PQ1Study2.Name = "PQ1Study2";
@@ -57,6 +58,7 @@ namespace Learn_Japanese_Assignment_2
             // PQ1Study3
             // 
             this.PQ1Study3.AutoSize = true;
+            this.PQ1Study3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.PQ1Study3.Location = new System.Drawing.Point(390, 310);
             this.PQ1Study3.Name = "PQ1Study3";
@@ -68,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             // PQ1Study4
             // 
             this.PQ1Study4.AutoSize = true;
+            this.PQ1Study4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.PQ1Study4.Location = new System.Drawing.Point(390, 360);
             this.PQ1Study4.Name = "PQ1Study4";
@@ -79,6 +82,7 @@ namespace Learn_Japanese_Assignment_2
             // PQ1Study5
             // 
             this.PQ1Study5.AutoSize = true;
+            this.PQ1Study5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.PQ1Study5.Location = new System.Drawing.Point(390, 413);
             this.PQ1Study5.Name = "PQ1Study5";
@@ -90,6 +94,7 @@ namespace Learn_Japanese_Assignment_2
             // PronounLvl1
             // 
             this.PronounLvl1.AutoSize = true;
+            this.PronounLvl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PronounLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.PronounLvl1.Location = new System.Drawing.Point(390, 155);
             this.PronounLvl1.Name = "PronounLvl1";
@@ -101,6 +106,7 @@ namespace Learn_Japanese_Assignment_2
             // PQ1Study1
             // 
             this.PQ1Study1.AutoSize = true;
+            this.PQ1Study1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.PQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.PQ1Study1.Location = new System.Drawing.Point(390, 208);
             this.PQ1Study1.Name = "PQ1Study1";
@@ -187,6 +193,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.NounLvl1instructionLbl);
             this.Controls.Add(this.PLvl1Lbl);
             this.Name = "PronounsLvl2Learn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PronounsLvl2Learn";
             this.Load += new System.EventHandler(this.PronounsLvl2Learn_Load);
             this.ResumeLayout(false);

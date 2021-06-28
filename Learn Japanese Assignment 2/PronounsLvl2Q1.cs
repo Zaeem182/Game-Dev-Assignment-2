@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Media;
 using System.Text;
 using System.Windows.Forms;
 
@@ -29,6 +30,8 @@ namespace Learn_Japanese_Assignment_2
         {
             if (textBox1.Text == "They")
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Correct_Sound.wav");
+                splayer.Play();
                 textBox1.ForeColor = Color.Green;
                 MessageBox.Show("Correct!");
                 this.Hide();
@@ -37,6 +40,8 @@ namespace Learn_Japanese_Assignment_2
             }
             else
             {
+                SoundPlayer splayer = new SoundPlayer(@".\Sounds\Incorrect_Sound.wav");
+                splayer.Play();
                 textBox1.ForeColor = Color.Red;
                 MessageBox.Show("Incorrect!");
                 this.Hide();

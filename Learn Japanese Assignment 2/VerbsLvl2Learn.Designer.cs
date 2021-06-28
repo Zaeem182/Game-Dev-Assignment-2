@@ -46,6 +46,7 @@ namespace Learn_Japanese_Assignment_2
             // VQ1Study2
             // 
             this.VQ1Study2.AutoSize = true;
+            this.VQ1Study2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VQ1Study2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.VQ1Study2.Location = new System.Drawing.Point(357, 252);
             this.VQ1Study2.Name = "VQ1Study2";
@@ -57,6 +58,7 @@ namespace Learn_Japanese_Assignment_2
             // VQ1Study3
             // 
             this.VQ1Study3.AutoSize = true;
+            this.VQ1Study3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VQ1Study3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.VQ1Study3.Location = new System.Drawing.Point(357, 305);
             this.VQ1Study3.Name = "VQ1Study3";
@@ -68,6 +70,7 @@ namespace Learn_Japanese_Assignment_2
             // VQ1Study4
             // 
             this.VQ1Study4.AutoSize = true;
+            this.VQ1Study4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VQ1Study4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.VQ1Study4.Location = new System.Drawing.Point(357, 355);
             this.VQ1Study4.Name = "VQ1Study4";
@@ -79,6 +82,7 @@ namespace Learn_Japanese_Assignment_2
             // VQ1Study5
             // 
             this.VQ1Study5.AutoSize = true;
+            this.VQ1Study5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VQ1Study5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.VQ1Study5.Location = new System.Drawing.Point(357, 408);
             this.VQ1Study5.Name = "VQ1Study5";
@@ -90,6 +94,7 @@ namespace Learn_Japanese_Assignment_2
             // VerbsLvl1
             // 
             this.VerbsLvl1.AutoSize = true;
+            this.VerbsLvl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VerbsLvl1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.VerbsLvl1.Location = new System.Drawing.Point(357, 150);
             this.VerbsLvl1.Name = "VerbsLvl1";
@@ -101,6 +106,7 @@ namespace Learn_Japanese_Assignment_2
             // VQ1Study1
             // 
             this.VQ1Study1.AutoSize = true;
+            this.VQ1Study1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(159)))), ((int)(((byte)(146)))));
             this.VQ1Study1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.VQ1Study1.Location = new System.Drawing.Point(357, 203);
             this.VQ1Study1.Name = "VQ1Study1";
@@ -186,6 +192,7 @@ namespace Learn_Japanese_Assignment_2
             this.Controls.Add(this.NounLvl1instructionLbl);
             this.Controls.Add(this.VLvl1Lbl);
             this.Name = "VerbsLvl2Learn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VerbsLvl2Learn";
             this.Load += new System.EventHandler(this.VerbsLvl2Learn_Load);
             this.ResumeLayout(false);
