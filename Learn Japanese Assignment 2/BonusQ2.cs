@@ -204,5 +204,10 @@ namespace Learn_Japanese_Assignment_2
                 start.Show();
             }
         }
+
+        private void GuessTxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
