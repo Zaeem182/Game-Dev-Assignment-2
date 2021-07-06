@@ -64,6 +64,7 @@ C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn J
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.runtimeconfig.dev.json
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.dll
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\bin\Debug\netcoreapp3.1\Learn Japanese Assignment 2.pdb
+C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn Japanese Assignment 2.csproj.AssemblyReference.cache
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.Bonus4.resources
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusInstructions.resources
 C:\Users\zelin\OneDrive\Documents\Visual Studio 2019\Game Dev Assignment\Learn Japanese Assignment 2\obj\Debug\netcoreapp3.1\Learn_Japanese_Assignment_2.BonusLvl.resources
